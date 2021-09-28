@@ -31,6 +31,22 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Text",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -54,7 +70,10 @@
 			"Art_Foreground",
 			"Tilemap",
 			"Player",
-			"Keyboard"
+			"Keyboard",
+			"Text_Title",
+			"Text_GoTo",
+			"Mouse"
 		],
 		"subfolders": []
 	},
@@ -66,13 +85,17 @@
 	},
 	"layouts": {
 		"items": [
-			"Layout 1"
+			"Game Example",
+			"Main Menu",
+			"UI"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Event sheet 1"
+			"Game Sheet",
+			"Main Menu Sheet",
+			"UI Sheet"
 		],
 		"subfolders": []
 	},
@@ -221,5 +244,5 @@
 	},
 	"viewportWidth": 1920,
 	"viewportHeight": 1080,
-	"firstLayout": null
+	"firstLayout": "Main Menu"
 }

@@ -1,0 +1,32 @@
+{
+	"name": "Main Menu Sheet",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 701184470650046,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Text_GoTo"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 385192439070056,
+					"parameters": {
+						"layout": "Text_GoTo.TargetLayout"
+					}
+				}
+			],
+			"sid": 104417506381577
+		}
+	],
+	"sid": 384933763553778
+}

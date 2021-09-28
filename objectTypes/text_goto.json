@@ -1,0 +1,16 @@
+{
+	"name": "Text_GoTo",
+	"plugin-id": "Text",
+	"sid": 765803510497407,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "TargetLayout",
+			"type": "string",
+			"desc": "",
+			"sid": 987105120254743
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

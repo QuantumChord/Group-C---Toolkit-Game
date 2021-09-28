@@ -1,5 +1,5 @@
 {
-	"name": "Layout 1",
+	"name": "Game Example",
 	"layers": [
 		{
 			"name": "Background Layer",
@@ -130,7 +130,9 @@
 						"live-preview": false
 					},
 					"uid": 4,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Starpower": 0
+					},
 					"behaviors": {
 						"Platform": {
 							"properties": {
@@ -260,5 +262,5 @@
 	"unboundedScrolling": false,
 	"vpX": 0.5,
 	"vpY": 0.5,
-	"eventSheet": "Event sheet 1"
+	"eventSheet": "Game Sheet"
 }

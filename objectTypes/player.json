@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 266544386262784,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "Starpower",
+			"type": "number",
+			"desc": "",
+			"sid": 720953117670993
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Platform",
