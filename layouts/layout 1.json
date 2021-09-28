@@ -6,7 +6,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Background",
+					"type": "Art_Background",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -121,7 +121,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Player",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -153,7 +153,7 @@
 						"width": 100,
 						"height": 100,
 						"originX": 0.5,
-						"originY": 0.5,
+						"originY": 1,
 						"color": [
 							1,
 							1,
@@ -196,7 +196,7 @@
 			"overriden": 0,
 			"instances": [
 				{
-					"type": "Foreground",
+					"type": "Art_Foreground",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

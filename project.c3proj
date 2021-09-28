@@ -23,6 +23,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Keyboard",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
@@ -42,10 +50,11 @@
 	"uniqueId": "mqbh8lbw663",
 	"objectTypes": {
 		"items": [
-			"Background",
-			"Foreground",
+			"Art_Background",
+			"Art_Foreground",
 			"Tilemap",
-			"Sprite"
+			"Player",
+			"Keyboard"
 		],
 		"subfolders": []
 	},
