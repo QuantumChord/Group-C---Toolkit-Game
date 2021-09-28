@@ -16,14 +16,6 @@
 		},
 		{
 			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Tilemap",
-			"author": "Scirra",
-			"version": "r260",
-			"bundled": false
-		},
-		{
-			"type": "plugin",
 			"id": "Keyboard",
 			"name": "Keyboard",
 			"author": "Scirra",
@@ -55,9 +47,9 @@
 			"bundled": false
 		},
 		{
-			"type": "behavior",
-			"id": "solid",
-			"name": "Solid",
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Tilemap",
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
@@ -69,6 +61,14 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "mqbh8lbw663",
@@ -76,14 +76,14 @@
 		"items": [
 			"Art_Background",
 			"Art_Foreground",
-			"Tilemap",
 			"Player",
 			"Keyboard",
 			"Text_Title",
 			"Text_GoTo",
 			"Mouse",
 			"UI_PowerBar",
-			"UI_StarpowerIcon"
+			"UI_StarpowerIcon",
+			"Tilemap"
 		],
 		"subfolders": []
 	},
