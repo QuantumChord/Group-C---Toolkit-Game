@@ -1,12 +1,12 @@
 {
 	"projectFormatVersion": 1,
 	"savedWithRelease": 26000,
-	"name": "Untitled Wizard",
+	"name": "Group-C---Toolkit-Game",
 	"runtime": "c3",
 	"useWorker": "auto",
 	"bundleAddons": false,
 	"usedAddons": [],
-	"uniqueId": "ud3oykh397x",
+	"uniqueId": "mqbh8lbw663",
 	"objectTypes": {
 		"items": [],
 		"subfolders": []
@@ -55,7 +55,7 @@
 				{
 					"name": "icon-16.png",
 					"type": "image/png",
-					"sid": 972698686833891,
+					"sid": 459284518600620,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -63,7 +63,7 @@
 				{
 					"name": "icon-32.png",
 					"type": "image/png",
-					"sid": 583585778081998,
+					"sid": 642813100037106,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -71,7 +71,7 @@
 				{
 					"name": "icon-64.png",
 					"type": "image/png",
-					"sid": 586344249757163,
+					"sid": 578665117330837,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -79,15 +79,7 @@
 				{
 					"name": "icon-128.png",
 					"type": "image/png",
-					"sid": 325387991382740,
-					"icon-info": {
-						"purpose": "app-icon"
-					}
-				},
-				{
-					"name": "icon-256.png",
-					"type": "image/png",
-					"sid": 830791830103480,
+					"sid": 273034066236983,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -95,7 +87,7 @@
 				{
 					"name": "icon-512.png",
 					"type": "image/png",
-					"sid": 907928707429479,
+					"sid": 136855367182278,
 					"icon-info": {
 						"purpose": "app-icon"
 					}
@@ -103,9 +95,17 @@
 				{
 					"name": "loading-logo.png",
 					"type": "image/png",
-					"sid": 215603110274673,
+					"sid": 483381307310912,
 					"icon-info": {
 						"purpose": "loading-logo"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 134661900185604,
+					"icon-info": {
+						"purpose": "app-icon"
 					}
 				}
 			],
