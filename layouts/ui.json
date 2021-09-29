@@ -101,7 +101,9 @@
 						"live-preview": false
 					},
 					"uid": 36,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Active": true
+					},
 					"behaviors": {},
 					"world": {
 						"x": 200,
@@ -130,7 +132,9 @@
 						"live-preview": false
 					},
 					"uid": 37,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Active": true
+					},
 					"behaviors": {},
 					"world": {
 						"x": 400,
@@ -159,7 +163,9 @@
 						"live-preview": false
 					},
 					"uid": 38,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Active": true
+					},
 					"behaviors": {},
 					"world": {
 						"x": 300,

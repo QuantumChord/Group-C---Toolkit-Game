@@ -441,7 +441,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 505827235908647,
+							"sid": 334575505575991,
 							"parameters": {
 								"object": "Magic_Blast",
 								"layer": "0",
@@ -494,7 +494,7 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 531842333103953,
+							"sid": 696120273547883,
 							"parameters": {
 								"object": "Magic_Blast2",
 								"layer": "0",
@@ -891,6 +891,18 @@
 						}
 					],
 					"sid": 105796054589876
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 519435665841063
+						}
+					],
+					"actions": [],
+					"sid": 139238416553871
 				}
 			],
 			"sid": 997400010149446
@@ -1031,6 +1043,10 @@
 										"instance-variable": "Health",
 										"value": "1"
 									}
+								},
+								{
+									"callFunction": "TakeHeart",
+									"sid": 115300870442820
 								}
 							],
 							"sid": 185417434509577,
@@ -1206,6 +1222,81 @@
 								}
 							],
 							"sid": 132110706912052
+						}
+					]
+				},
+				{
+					"functionName": "TakeHeart",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "UI_Heart",
+							"sid": 390238423051539,
+							"parameters": {
+								"instance-variable": "Active",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 713754314968124,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "UI_Heart",
+									"sid": 865861812480030,
+									"parameters": {
+										"instance-variable": "Active"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "UI_Heart",
+									"sid": 505556550545249,
+									"parameters": {
+										"animation": "\"Full\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 781062209755728
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "UI_Heart",
+									"sid": 723557543959862,
+									"parameters": {
+										"instance-variable": "Active"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "UI_Heart",
+									"sid": 453930540234875,
+									"parameters": {
+										"animation": "\"Empty\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 476096659673973
 						}
 					]
 				}
