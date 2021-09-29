@@ -1100,7 +1100,18 @@
 						}
 					],
 					"eventType": "function-block",
-					"conditions": [],
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 972793463921572,
+							"parameters": {
+								"first-value": "Player.Starpower",
+								"comparison": 5,
+								"second-value": "0"
+							}
+						}
+					],
 					"actions": [
 						{
 							"id": "add-to-instvar",
@@ -1120,7 +1131,36 @@
 							}
 						}
 					],
-					"sid": 193534961177136
+					"sid": 193534961177136,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 614762793672094,
+									"parameters": {
+										"first-value": "Player.Starpower",
+										"comparison": 2,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 480947588297591,
+									"parameters": {
+										"instance-variable": "Starpower",
+										"value": "0"
+									}
+								}
+							],
+							"sid": 132110706912052
+						}
+					]
 				}
 			],
 			"sid": 851848254388571
