@@ -1,0 +1,30 @@
+{
+	"name": "GroundEnemy",
+	"plugin-id": "Sprite",
+	"sid": 416263760451581,
+	"instanceVariables": [
+		{
+			"name": "Left",
+			"type": "boolean",
+			"desc": "",
+			"sid": 733759157433469
+		},
+		{
+			"name": "EnemyHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 613167964668568
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Platform",
+			"name": "Platform",
+			"sid": 516446596903970
+		}
+	],
+	"effectTypes": [],
+	"members": [
+		"EN_Slime"
+	]
+}

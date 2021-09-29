@@ -334,6 +334,180 @@
 		{
 			"eventType": "group",
 			"disabled": false,
+			"title": "Enemy Behavior",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-on-screen",
+							"objectClass": "GroundEnemy",
+							"sid": 525451033095205
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "GroundEnemy",
+							"sid": 461743920369183,
+							"parameters": {
+								"animation": "\"Idle\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 290175803398289,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "GroundEnemy",
+									"sid": 719829759853161,
+									"parameters": {
+										"instance-variable": "Left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "GroundEnemy",
+									"sid": 528977448218891,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "left"
+									}
+								},
+								{
+									"id": "set-mirrored",
+									"objectClass": "GroundEnemy",
+									"sid": 264326784188508,
+									"parameters": {
+										"state": "not-mirrored"
+									}
+								}
+							],
+							"sid": 223868862698457
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 429940236892170
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "GroundEnemy",
+									"sid": 128308458286757,
+									"parameters": {
+										"instance-variable": "Left"
+									},
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "simulate-control",
+									"objectClass": "GroundEnemy",
+									"sid": 155145848116305,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "right"
+									}
+								},
+								{
+									"id": "set-mirrored",
+									"objectClass": "GroundEnemy",
+									"sid": 904076010205569,
+									"parameters": {
+										"state": "mirrored"
+									}
+								}
+							],
+							"sid": 238958806868347
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "GroundEnemy",
+									"sid": 353042008255777,
+									"parameters": {
+										"object": "EN_Barrier"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "toggle-boolean-instvar",
+									"objectClass": "GroundEnemy",
+									"sid": 795280770258618,
+									"parameters": {
+										"instance-variable": "Left"
+									}
+								}
+							],
+							"sid": 672167740408766
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "GroundEnemy",
+									"sid": 479891714634964,
+									"parameters": {
+										"object": "Player"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "subtract-from-instvar",
+									"objectClass": "Player",
+									"sid": 133854649772447,
+									"parameters": {
+										"instance-variable": "Health",
+										"value": "1"
+									}
+								}
+							],
+							"sid": 185417434509577,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-two-values",
+											"objectClass": "System",
+											"sid": 630516054766636,
+											"parameters": {
+												"first-value": "Player.Health",
+												"comparison": 3,
+												"second-value": "0"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 104677429554057
+								}
+							]
+						}
+					]
+				}
+			],
+			"sid": 273940971506174
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
 			"title": "Functions",
 			"description": "",
 			"isActiveOnStart": true,

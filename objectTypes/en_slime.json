@@ -1,0 +1,49 @@
+{
+	"name": "EN_Slime",
+	"plugin-id": "Sprite",
+	"sid": 650526216488426,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 82,
+						"height": 58,
+						"originX": 0.3902439024390244,
+						"originY": 0.20689655172413793,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 581607,
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 80,
+						"height": 58,
+						"originX": 0.4,
+						"originY": 0.20689655172413793,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5869676,
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 282066583455564,
+				"name": "Idle",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

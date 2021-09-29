@@ -137,7 +137,8 @@
 					"uid": 11,
 					"instanceVariables": {
 						"Starpower": 0,
-						"Jumps": 0
+						"Jumps": 0,
+						"Health": 0
 					},
 					"behaviors": {
 						"Platform": {

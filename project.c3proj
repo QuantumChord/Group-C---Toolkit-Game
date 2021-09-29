@@ -93,7 +93,9 @@
 			"UI_StarpowerIcon",
 			"Tilemap",
 			"Starpower",
-			"GameManager"
+			"GameManager",
+			"EN_Slime",
+			"EN_Barrier"
 		],
 		"subfolders": []
 	},
@@ -101,7 +103,8 @@
 	"containers": [],
 	"families": {
 		"items": [
-			"StarPowerFamily"
+			"StarPowerFamily",
+			"GroundEnemy"
 		],
 		"subfolders": []
 	},
