@@ -1,0 +1,100 @@
+{
+	"name": "UI_Heart",
+	"plugin-id": "Sprite",
+	"sid": 570459024905085,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6252402,
+						"collisionPoly": {
+							"points": [
+								0.18333333333333332,
+								0.18333333333333332,
+								0.5,
+								0.19166666666666668,
+								0.8166666666666667,
+								0.175,
+								0.8583333333333333,
+								0.5,
+								0.7083333333333334,
+								0.7083333333333334,
+								0.5,
+								0.8833333333333333,
+								0.2916666666666667,
+								0.7,
+								0.15,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 550449871862117,
+				"name": "Full",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			},
+			{
+				"frames": [
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3411576,
+						"collisionPoly": {
+							"points": [
+								0.18333333333333332,
+								0.18333333333333332,
+								0.5,
+								0.19166666666666668,
+								0.8166666666666667,
+								0.175,
+								0.8583333333333333,
+								0.5,
+								0.7083333333333334,
+								0.7083333333333334,
+								0.5,
+								0.8833333333333333,
+								0.2916666666666667,
+								0.7,
+								0.15,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 161811775262880,
+				"name": "Empty",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

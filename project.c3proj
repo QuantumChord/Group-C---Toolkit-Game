@@ -128,7 +128,8 @@
 			"FakeStarpower",
 			"FakeStapower",
 			"Sprite2",
-			"PL_JumpEffect"
+			"PL_JumpEffect",
+			"UI_Heart"
 		],
 		"subfolders": []
 	},
