@@ -4,9 +4,9 @@
 Wizard collects starpower to use abilities and must meet conditions to get to the exit
 
 ## Abilities
-[ ] Dash
-[x] UP special
-[] Space to shoot at no cost
+- [ ] Dash
+- [x] UP special
+- [ ] Space to shoot at no cost
 * Charge shot cost star power
 
 ## Enemies
