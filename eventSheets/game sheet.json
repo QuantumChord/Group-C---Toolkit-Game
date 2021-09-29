@@ -1121,6 +1121,39 @@
 						}
 					],
 					"sid": 193534961177136
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "FakeStapower",
+							"sid": 581355126960472,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 942441465729913,
+							"parameters": {
+								"instance-variable": "Starpower",
+								"value": "3"
+							}
+						},
+						{
+							"id": "set-progress",
+							"objectClass": "UI_PowerBar",
+							"sid": 386514605450852,
+							"parameters": {
+								"value": "Player.Starpower"
+							}
+						}
+					],
+					"sid": 650273325955272
 				}
 			],
 			"sid": 851848254388571

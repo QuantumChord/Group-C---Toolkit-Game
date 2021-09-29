@@ -116,7 +116,11 @@
 			"Magic_Blast2",
 			"EN_Slime2",
 			"Charged_Blast",
-			"Charged_Blast2"
+			"Charged_Blast2",
+			"FakeStarpower",
+			"FakeStapower",
+			"Sprite2",
+			"FakeStapower2"
 		],
 		"subfolders": []
 	},
