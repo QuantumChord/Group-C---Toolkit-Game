@@ -20,6 +20,6 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Next Level Door
 - [ ] Win conditions
 
-### Known Bugs
+### Squashed Bugs
 - [ ] Enemies get stuck almost randomly
 - [ ] Shot goes to the left when firing
