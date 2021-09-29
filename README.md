@@ -19,3 +19,6 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Health bar
 - [ ] Next Level Door
 - [ ] Win conditions
+
+### Known Bugs
+- [ ] Enemies get stuck almost randomly
