@@ -179,7 +179,7 @@
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Walking",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -188,7 +188,8 @@
 					"instanceVariables": {
 						"Starpower": 10,
 						"Jumps": 0,
-						"Health": 3
+						"Health": 3,
+						"Casting": false
 					},
 					"behaviors": {
 						"Platform": {
@@ -533,6 +534,88 @@
 						"y": 678,
 						"width": 25,
 						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Magic_Blast",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 26,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": 450,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 243,
+						"y": -56,
+						"width": 78.76547467006088,
+						"height": 78.76547467006088,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Magic_Blast2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 27,
+					"instanceVariables": {},
+					"behaviors": {
+						"Bullet": {
+							"properties": {
+								"speed": -450,
+								"acceleration": 0,
+								"gravity": 0,
+								"bounce-off-solids": false,
+								"set-angle": true,
+								"step": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 238,
+						"y": -90,
+						"width": 78.76547467006088,
+						"height": 78.76547467006088,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [

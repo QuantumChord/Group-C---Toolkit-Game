@@ -77,6 +77,14 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Bullet",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "mqbh8lbw663",
@@ -95,7 +103,9 @@
 			"Starpower",
 			"GameManager",
 			"EN_Slime",
-			"EN_Barrier"
+			"EN_Barrier",
+			"Magic_Blast",
+			"Magic_Blast2"
 		],
 		"subfolders": []
 	},

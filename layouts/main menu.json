@@ -129,7 +129,7 @@
 					"type": "Player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Walking",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -138,7 +138,8 @@
 					"instanceVariables": {
 						"Starpower": 0,
 						"Jumps": 0,
-						"Health": 0
+						"Health": 0,
+						"Casting": false
 					},
 					"behaviors": {
 						"Platform": {

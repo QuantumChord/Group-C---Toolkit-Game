@@ -58,6 +58,15 @@
 							"parameters": {
 								"control": "left"
 							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 721808802901240,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
+							}
 						}
 					],
 					"sid": 848694395217195
@@ -90,6 +99,15 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"control": "right"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 542044027757039,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -124,6 +142,15 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"state": "disabled"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 757566746645251,
+							"parameters": {
+								"animation": "\"Jumping\"",
+								"from": "beginning"
 							}
 						}
 					],
@@ -289,6 +316,147 @@
 						}
 					],
 					"sid": 456759271166740
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 462950193037436,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 333459962967103,
+							"parameters": {
+								"instance-variable": "Casting",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 685638309754992,
+							"parameters": {
+								"animation": "\"Casting\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 416089269330462
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 110889082424830,
+							"parameters": {
+								"key": 32
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 365030103198640,
+							"parameters": {
+								"object": "Magic_Blast",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 409286619170505,
+							"parameters": {
+								"instance-variable": "Casting",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 854169942408263
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-released",
+							"objectClass": "Keyboard",
+							"sid": 636028025954207,
+							"parameters": {
+								"key": 32
+							}
+						},
+						{
+							"id": "is-mirrored",
+							"objectClass": "Player",
+							"sid": 340209934049256
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 768924099033539,
+							"parameters": {
+								"object": "Magic_Blast2",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 327780732848223,
+							"parameters": {
+								"instance-variable": "Casting",
+								"value": "false"
+							}
+						}
+					],
+					"sid": 649317765437947
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Magic_Blast",
+							"sid": 564876478877631,
+							"parameters": {
+								"object": "GroundEnemy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Magic_Blast",
+							"sid": 413548367905499
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "GroundEnemy",
+							"sid": 957193406641559,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 780208395002559
 				}
 			],
 			"sid": 322790848811391
@@ -501,6 +669,29 @@
 							]
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "GroundEnemy",
+							"sid": 522820255593638,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "GroundEnemy",
+							"sid": 114478419087771
+						}
+					],
+					"sid": 936221855654878
 				}
 			],
 			"sid": 273940971506174
