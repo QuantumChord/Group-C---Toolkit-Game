@@ -22,4 +22,5 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 
 ### Squashed Bugs
 - [ ] Enemies get stuck almost randomly
-- [ ] Shot goes to the left when firing
+- [x] Shot goes to the left when firing
+  - Fixed it by mirroring the animation sprite, a cheap solution
