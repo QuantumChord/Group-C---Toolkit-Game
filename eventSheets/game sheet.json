@@ -603,6 +603,46 @@
 						}
 					],
 					"sid": 555250218245760
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-jumping",
+							"objectClass": "Player",
+							"sid": 462241894870351,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [],
+					"sid": 530255984394682,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "trigger-once-while-true",
+									"objectClass": "System",
+									"sid": 574729168211486
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 113131087400299,
+									"parameters": {
+										"object-to-create": "PL_JumpEffect",
+										"layer": "0",
+										"x": "Player.ImagePointX(0)",
+										"y": "Player.ImagePointY(0)",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 357088615194455
+						}
+					]
 				}
 			],
 			"sid": 322790848811391
@@ -1154,6 +1194,14 @@
 									"parameters": {
 										"instance-variable": "Starpower",
 										"value": "0"
+									}
+								},
+								{
+									"id": "set-progress",
+									"objectClass": "UI_PowerBar",
+									"sid": 793490082793332,
+									"parameters": {
+										"value": "Player.Starpower"
 									}
 								}
 							],

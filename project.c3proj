@@ -87,6 +87,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Fade",
+			"name": "Fade",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "hsladjust",
 			"name": "Adjust HSL",
@@ -119,7 +127,8 @@
 			"Charged_Blast2",
 			"FakeStarpower",
 			"FakeStapower",
-			"Sprite2"
+			"Sprite2",
+			"PL_JumpEffect"
 		],
 		"subfolders": []
 	},
