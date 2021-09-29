@@ -22,4 +22,4 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 
 ### Known Bugs
 - [ ] Enemies get stuck almost randomly
-= [ ] Shot goes to the left when firing
+- [ ] Shot goes to the left when firing
