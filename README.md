@@ -14,3 +14,8 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Evil Wizard - Shoots projectile
 - [ ] Fake Star Power - Does something
 - [ ] Fake Door - Maybe?
+
+## To Do
+- [ ] Health bar
+- [ ] Next Level Door
+- [ ] Win conditions
