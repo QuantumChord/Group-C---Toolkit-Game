@@ -195,7 +195,7 @@
 								"max-speed": 330,
 								"acceleration": 1500,
 								"deceleration": 1500,
-								"jump-strength": 800,
+								"jump-strength": 650,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
 								"double-jump": true,
