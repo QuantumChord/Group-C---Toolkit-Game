@@ -1,0 +1,105 @@
+{
+	"name": "Charged_Blast2",
+	"plugin-id": "Sprite",
+	"sid": 542737753515072,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 973729478635015
+		},
+		{
+			"behaviorId": "Timer",
+			"name": "Timer",
+			"sid": 459746881327919
+		}
+	],
+	"effectTypes": [
+		{
+			"effectId": "hsladjust",
+			"name": "AdjustHSL"
+		}
+	],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4014049,
+						"collisionPoly": {
+							"points": [
+								0.712,
+								0.5,
+								0.62,
+								0.616,
+								0.5,
+								0.68,
+								0.31999999999999995,
+								0.68,
+								0.09599999999999997,
+								0.5,
+								0.136,
+								0.132,
+								0.5,
+								0.016,
+								0.736,
+								0.264
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 2
+					},
+					{
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8682595,
+						"collisionPoly": {
+							"points": [
+								0.712,
+								0.5,
+								0.62,
+								0.616,
+								0.5,
+								0.68,
+								0.31999999999999995,
+								0.68,
+								0.09599999999999997,
+								0.5,
+								0.136,
+								0.132,
+								0.5,
+								0.016,
+								0.736,
+								0.264
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 2
+					}
+				],
+				"sid": 140579231260195,
+				"name": "Animation 1",
+				"isLooping": true,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

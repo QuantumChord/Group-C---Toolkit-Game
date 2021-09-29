@@ -139,7 +139,9 @@
 						"Starpower": 0,
 						"Jumps": 0,
 						"Health": 0,
-						"Casting": false
+						"Casting": false,
+						"RIght": true,
+						"Left": false
 					},
 					"behaviors": {
 						"Platform": {

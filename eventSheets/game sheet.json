@@ -67,6 +67,24 @@
 								"animation": "\"Walking\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 108819343195054,
+							"parameters": {
+								"instance-variable": "RIght",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 659471148844351,
+							"parameters": {
+								"instance-variable": "Left",
+								"value": "true"
+							}
 						}
 					],
 					"sid": 848694395217195
@@ -109,6 +127,24 @@
 								"animation": "\"Walking\"",
 								"from": "beginning"
 							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 874621352518408,
+							"parameters": {
+								"instance-variable": "RIght",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 895769534336809,
+							"parameters": {
+								"instance-variable": "Left",
+								"value": "false"
+							}
 						}
 					],
 					"sid": 473197281452453
@@ -142,15 +178,6 @@
 							"behaviorType": "Platform",
 							"parameters": {
 								"state": "disabled"
-							}
-						},
-						{
-							"id": "set-animation",
-							"objectClass": "Player",
-							"sid": 757566746645251,
-							"parameters": {
-								"animation": "\"Jumping\"",
-								"from": "beginning"
 							}
 						}
 					],
@@ -361,20 +388,17 @@
 							"parameters": {
 								"key": 32
 							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 256396446853872,
+							"parameters": {
+								"instance-variable": "RIght"
+							}
 						}
 					],
 					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Player",
-							"sid": 365030103198640,
-							"parameters": {
-								"object": "Magic_Blast",
-								"layer": "0",
-								"image-point": "0",
-								"create-hierarchy": false
-							}
-						},
 						{
 							"id": "set-boolean-instvar",
 							"objectClass": "Player",
@@ -382,6 +406,26 @@
 							"parameters": {
 								"instance-variable": "Casting",
 								"value": "false"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 514943291761496,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
+							}
+						},
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 536284713114443,
+							"parameters": {
+								"object": "Magic_Blast",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
 							}
 						}
 					],
@@ -393,40 +437,52 @@
 						{
 							"id": "on-key-released",
 							"objectClass": "Keyboard",
-							"sid": 636028025954207,
+							"sid": 574693159961285,
 							"parameters": {
 								"key": 32
 							}
 						},
 						{
-							"id": "is-mirrored",
+							"id": "is-boolean-instance-variable-set",
 							"objectClass": "Player",
-							"sid": 340209934049256
+							"sid": 953049562132992,
+							"parameters": {
+								"instance-variable": "Left"
+							}
 						}
 					],
 					"actions": [
 						{
+							"id": "set-boolean-instvar",
+							"objectClass": "Player",
+							"sid": 227212579756038,
+							"parameters": {
+								"instance-variable": "Casting",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 313618595852472,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
+							}
+						},
+						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 768924099033539,
+							"sid": 591736107768874,
 							"parameters": {
 								"object": "Magic_Blast2",
 								"layer": "0",
 								"image-point": "0",
 								"create-hierarchy": false
 							}
-						},
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "Player",
-							"sid": 327780732848223,
-							"parameters": {
-								"instance-variable": "Casting",
-								"value": "false"
-							}
 						}
 					],
-					"sid": 649317765437947
+					"sid": 310230428517487
 				},
 				{
 					"eventType": "block",
@@ -457,6 +513,75 @@
 						}
 					],
 					"sid": 780208395002559
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "Player",
+							"sid": 585406737305848,
+							"parameters": {
+								"instance-variable": "Health",
+								"comparison": 3,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Player",
+							"sid": 612279383138591
+						}
+					],
+					"sid": 289951706373906
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-landed",
+							"objectClass": "Player",
+							"sid": 348262258217861,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 750417453500777,
+							"parameters": {
+								"animation": "\"Walking\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 352800946382816
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-jumping",
+							"objectClass": "Player",
+							"sid": 839139514730836,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "Player",
+							"sid": 338831874928569,
+							"parameters": {
+								"animation": "\"Jumping\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 555250218245760
 				}
 			],
 			"sid": 322790848811391
@@ -495,6 +620,237 @@
 						}
 					],
 					"sid": 210843868454351
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "every-tick",
+							"objectClass": "System",
+							"sid": 121720546750718
+						}
+					],
+					"actions": [
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Charged_Blast",
+							"sid": 259828502872134,
+							"parameters": {
+								"effect": "\"AdjustHSL\"",
+								"parameter-index": "0",
+								"value": "random(1-100)"
+							}
+						},
+						{
+							"id": "set-effect-parameter",
+							"objectClass": "Charged_Blast2",
+							"sid": 955892064869615,
+							"parameters": {
+								"effect": "\"AdjustHSL\"",
+								"parameter-index": "0",
+								"value": "random(1-100)"
+							}
+						}
+					],
+					"sid": 596128683499064
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Charged_Blast",
+							"sid": 421052907760631,
+							"parameters": {
+								"object": "GroundEnemy"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "GroundEnemy",
+							"sid": 876326465886097,
+							"parameters": {
+								"instance-variable": "EnemyHealth",
+								"value": "4"
+							}
+						}
+					],
+					"sid": 214719117789223
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-created",
+							"objectClass": "Charged_Blast",
+							"sid": 673413309792436
+						}
+					],
+					"actions": [
+						{
+							"id": "start-timer",
+							"objectClass": "Charged_Blast",
+							"sid": 234435517506762,
+							"behaviorType": "Timer",
+							"parameters": {
+								"duration": "5",
+								"type": "once",
+								"tag": "\"Timer\""
+							}
+						}
+					],
+					"sid": 966261745238277
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-timer",
+							"objectClass": "Charged_Blast",
+							"sid": 795369989139508,
+							"behaviorType": "Timer",
+							"parameters": {
+								"tag": "\"Timer\""
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "Charged_Blast",
+							"sid": 158823006080752
+						}
+					],
+					"sid": 666035592323427
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 819289407533853,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 508026725596692,
+							"parameters": {
+								"instance-variable": "RIght"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 158336142481726,
+							"parameters": {
+								"object": "Charged_Blast",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 581190230624742,
+							"parameters": {
+								"instance-variable": "Starpower",
+								"value": "3"
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "StarPowerFamily",
+							"sid": 609445112649964,
+							"parameters": {
+								"instance-variable": "StarValue",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 136972462072539
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 614685675393682,
+							"parameters": {
+								"key": 69
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 527690547384854,
+							"parameters": {
+								"instance-variable": "Left"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "spawn-another-object",
+							"objectClass": "Player",
+							"sid": 818667604363319,
+							"parameters": {
+								"object": "Charged_Blast2",
+								"layer": "0",
+								"image-point": "0",
+								"create-hierarchy": false
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 533293691517906,
+							"parameters": {
+								"instance-variable": "Starpower",
+								"value": "3"
+							}
+						},
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "StarPowerFamily",
+							"sid": 511290023816236,
+							"parameters": {
+								"instance-variable": "StarValue",
+								"value": "3"
+							}
+						}
+					],
+					"sid": 105796054589876
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 576901940686069,
+							"parameters": {
+								"key": 82
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "restart-layout",
+							"objectClass": "System",
+							"sid": 108910658618398
+						}
+					],
+					"sid": 121863051162158
 				}
 			],
 			"sid": 997400010149446
@@ -692,6 +1048,31 @@
 						}
 					],
 					"sid": 936221855654878
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "EN_Slime2",
+							"sid": 824945517418916,
+							"parameters": {
+								"object": "Player"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "subtract-from-instvar",
+							"objectClass": "Player",
+							"sid": 226004613971850,
+							"parameters": {
+								"instance-variable": "Starpower",
+								"value": "1"
+							}
+						}
+					],
+					"sid": 171343529006290
 				}
 			],
 			"sid": 273940971506174

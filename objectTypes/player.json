@@ -27,6 +27,18 @@
 			"type": "boolean",
 			"desc": "charging a magic shot",
 			"sid": 515613518659706
+		},
+		{
+			"name": "RIght",
+			"type": "boolean",
+			"desc": "direction the player is facing for magic shots",
+			"sid": 549140939551625
+		},
+		{
+			"name": "Left",
+			"type": "boolean",
+			"desc": "direction player is facing for magic shots",
+			"sid": 342186964492661
 		}
 	],
 	"behaviorTypes": [
@@ -85,6 +97,54 @@
 						"exportFormat": "png",
 						"exportQuality": 0.8,
 						"imageSpriteId": 9448109,
+						"collisionPoly": {
+							"points": [
+								0.3,
+								0,
+								0.5,
+								0,
+								0.5,
+								1,
+								0.3,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 100,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 7292723,
+						"collisionPoly": {
+							"points": [
+								0.3,
+								0,
+								0.5,
+								0,
+								0.5,
+								1,
+								0.3,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					},
+					{
+						"width": 100,
+						"height": 100,
+						"originX": 0.5,
+						"originY": 1,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5361010,
 						"collisionPoly": {
 							"points": [
 								0.3,
