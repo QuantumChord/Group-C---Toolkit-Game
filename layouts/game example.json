@@ -237,7 +237,7 @@
 					},
 					"uid": 16,
 					"instanceVariables": {
-						"StarValue": 1
+						"StarValue": 3
 					},
 					"behaviors": {},
 					"world": {
@@ -268,7 +268,7 @@
 					},
 					"uid": 18,
 					"instanceVariables": {
-						"StarValue": 1
+						"StarValue": 3
 					},
 					"behaviors": {},
 					"world": {
@@ -299,7 +299,7 @@
 					},
 					"uid": 19,
 					"instanceVariables": {
-						"StarValue": 1
+						"StarValue": 3
 					},
 					"behaviors": {},
 					"world": {
@@ -330,7 +330,7 @@
 					},
 					"uid": 20,
 					"instanceVariables": {
-						"StarValue": 1
+						"StarValue": 3
 					},
 					"behaviors": {},
 					"world": {
@@ -361,7 +361,7 @@
 					},
 					"uid": 21,
 					"instanceVariables": {
-						"StarValue": 1
+						"StarValue": 3
 					},
 					"behaviors": {},
 					"world": {
@@ -793,7 +793,9 @@
 						"live-preview": false
 					},
 					"uid": 31,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"StarValue": -3
+					},
 					"behaviors": {},
 					"world": {
 						"x": 237,
@@ -822,40 +824,13 @@
 						"live-preview": false
 					},
 					"uid": 33,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"StarValue": -3
+					},
 					"behaviors": {},
 					"world": {
 						"x": 626,
 						"y": 939,
-						"width": 75,
-						"height": 75,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "FakeStapower2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 32,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1145,
-						"y": 475,
 						"width": 75,
 						"height": 75,
 						"originX": 0.5,
