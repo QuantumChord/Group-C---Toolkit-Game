@@ -420,11 +420,11 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 536284713114443,
+							"sid": 505827235908647,
 							"parameters": {
 								"object": "Magic_Blast",
 								"layer": "0",
-								"image-point": "0",
+								"image-point": "1",
 								"create-hierarchy": false
 							}
 						}
@@ -473,11 +473,11 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 591736107768874,
+							"sid": 531842333103953,
 							"parameters": {
 								"object": "Magic_Blast2",
 								"layer": "0",
-								"image-point": "0",
+								"image-point": "1",
 								"create-hierarchy": false
 							}
 						}
