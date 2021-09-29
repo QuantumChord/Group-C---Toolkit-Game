@@ -11,33 +11,57 @@
 			{
 				"frames": [
 					{
-						"width": 82,
-						"height": 58,
-						"originX": 0.3902439024390244,
-						"originY": 0.20689655172413793,
+						"width": 100,
+						"height": 60,
+						"originX": 0.41,
+						"originY": 0.21666666666666667,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 9934590,
+						"imageSpriteId": 8711600,
+						"collisionPoly": {
+							"points": [
+								0.2,
+								0.18333333333333332,
+								0.6,
+								0.18333333333333332,
+								0.6,
+								0.9833333333333333,
+								0.2,
+								0.9833333333333333
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					},
 					{
-						"width": 80,
-						"height": 58,
-						"originX": 0.4,
-						"originY": 0.20689655172413793,
+						"width": 100,
+						"height": 60,
+						"originX": 0.42,
+						"originY": 0.21666666666666667,
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 5083541,
+						"imageSpriteId": 7909551,
+						"collisionPoly": {
+							"points": [
+								0.2,
+								0.18333333333333332,
+								0.6,
+								0.18333333333333332,
+								0.6,
+								0.9833333333333333,
+								0.2,
+								0.9833333333333333
+							]
+						},
 						"useCollisionPoly": true,
 						"duration": 1
 					}
 				],
 				"sid": 281160831384748,
 				"name": "Idle",
-				"isLooping": false,
+				"isLooping": true,
 				"isPingPong": false,
 				"repeatCount": 1,
 				"repeatTo": 0,

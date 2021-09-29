@@ -23,6 +23,27 @@
 			"sid": 871901159444153
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 531938232643844,
+					"parameters": {
+						"key": 82
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 237465078270881
+				}
+			],
+			"sid": 178499633086813
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -830,27 +851,6 @@
 						}
 					],
 					"sid": 105796054589876
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 576901940686069,
-							"parameters": {
-								"key": 82
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "restart-layout",
-							"objectClass": "System",
-							"sid": 108910658618398
-						}
-					],
-					"sid": 121863051162158
 				}
 			],
 			"sid": 997400010149446
@@ -871,17 +871,7 @@
 							"sid": 525451033095205
 						}
 					],
-					"actions": [
-						{
-							"id": "set-animation",
-							"objectClass": "GroundEnemy",
-							"sid": 461743920369183,
-							"parameters": {
-								"animation": "\"Idle\"",
-								"from": "beginning"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 290175803398289,
 					"children": [
 						{
@@ -1019,7 +1009,16 @@
 											}
 										}
 									],
-									"actions": [],
+									"actions": [
+										{
+											"id": "go-to-layout-by-name",
+											"objectClass": "System",
+											"sid": 528976689723822,
+											"parameters": {
+												"layout": "\"Main Menu\""
+											}
+										}
+									],
 									"sid": 104677429554057
 								}
 							]
