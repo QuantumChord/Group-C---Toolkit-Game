@@ -1,0 +1,18 @@
+{
+	"name": "StarPowerFamily",
+	"plugin-id": "Sprite",
+	"sid": 223027728771612,
+	"instanceVariables": [
+		{
+			"name": "StarValue",
+			"type": "number",
+			"desc": "",
+			"sid": 977061754574609
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Starpower"
+	]
+}

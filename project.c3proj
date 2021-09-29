@@ -69,6 +69,14 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Timer",
+			"name": "Timer",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "mqbh8lbw663",
@@ -83,14 +91,18 @@
 			"Mouse",
 			"UI_PowerBar",
 			"UI_StarpowerIcon",
-			"Tilemap"
+			"Tilemap",
+			"Starpower",
+			"GameManager"
 		],
 		"subfolders": []
 	},
 	"autosaveData": null,
 	"containers": [],
 	"families": {
-		"items": [],
+		"items": [
+			"StarPowerFamily"
+		],
 		"subfolders": []
 	},
 	"layouts": {

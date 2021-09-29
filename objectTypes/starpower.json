@@ -1,0 +1,57 @@
+{
+	"name": "Starpower",
+	"plugin-id": "Sprite",
+	"sid": 624818617214913,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 150,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3040102,
+						"collisionPoly": {
+							"points": [
+								0.26,
+								0.26,
+								0.5,
+								0.16666666666666666,
+								0.7333333333333333,
+								0.26,
+								0.8266666666666667,
+								0.5,
+								0.74,
+								0.74,
+								0.5,
+								0.8266666666666667,
+								0.26,
+								0.7333333333333333,
+								0.16666666666666666,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 924116974157643,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

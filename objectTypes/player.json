@@ -9,6 +9,12 @@
 			"type": "number",
 			"desc": "",
 			"sid": 720953117670993
+		},
+		{
+			"name": "Jumps",
+			"type": "number",
+			"desc": "",
+			"sid": 254733802522286
 		}
 	],
 	"behaviorTypes": [

@@ -2,6 +2,27 @@
 	"name": "Game Sheet",
 	"events": [
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 818356330172822
+				}
+			],
+			"actions": [
+				{
+					"id": "set-progress",
+					"objectClass": "UI_PowerBar",
+					"sid": 549556118091866,
+					"parameters": {
+						"value": "Player.Starpower"
+					}
+				}
+			],
+			"sid": 871901159444153
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -12,9 +33,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
+							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 459148729129739,
+							"sid": 238504730410460,
 							"parameters": {
 								"key": 37
 							}
@@ -28,6 +49,15 @@
 							"parameters": {
 								"state": "mirrored"
 							}
+						},
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 304378282050560,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "left"
+							}
 						}
 					],
 					"sid": 848694395217195
@@ -36,9 +66,9 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-key-pressed",
+							"id": "key-is-down",
 							"objectClass": "Keyboard",
-							"sid": 617285236128542,
+							"sid": 344444906861975,
 							"parameters": {
 								"key": 39
 							}
@@ -52,6 +82,15 @@
 							"parameters": {
 								"state": "not-mirrored"
 							}
+						},
+						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 207996784190136,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "right"
+							}
 						}
 					],
 					"sid": 473197281452453
@@ -60,25 +99,285 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "every-tick",
-							"objectClass": "System",
-							"sid": 887591903662163
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 375790602229610,
+							"parameters": {
+								"key": 38
+							}
 						}
 					],
 					"actions": [
 						{
+							"id": "simulate-control",
+							"objectClass": "Player",
+							"sid": 204120708974359,
+							"behaviorType": "Platform",
+							"parameters": {
+								"control": "jump"
+							}
+						},
+						{
+							"id": "set-double-jump",
+							"objectClass": "Player",
+							"sid": 338494897212700,
+							"behaviorType": "Platform",
+							"parameters": {
+								"state": "disabled"
+							}
+						}
+					],
+					"sid": 738156243094876,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 131527017854275,
+									"parameters": {
+										"instance-variable": "Jumps",
+										"comparison": 2,
+										"value": "1"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 878627416193865,
+									"parameters": {
+										"instance-variable": "Starpower",
+										"comparison": 4,
+										"value": "0"
+									}
+								},
+								{
+									"id": "is-jumping",
+									"objectClass": "Player",
+									"sid": 539737019485472,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 201853581166818,
+									"parameters": {
+										"instance-variable": "Jumps",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-double-jump",
+									"objectClass": "Player",
+									"sid": 817139308839396,
+									"behaviorType": "Platform",
+									"parameters": {
+										"state": "enabled"
+									}
+								},
+								{
+									"id": "simulate-control",
+									"objectClass": "Player",
+									"sid": 534985879821823,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "jump"
+									}
+								},
+								{
+									"callFunction": "Change Starpower",
+									"sid": 657981573057652,
+									"parameters": [
+										"-1"
+									]
+								}
+							],
+							"sid": 517035177488107
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 193801223504425,
+									"parameters": {
+										"instance-variable": "Jumps",
+										"comparison": 2,
+										"value": "1"
+									}
+								},
+								{
+									"id": "compare-instance-variable",
+									"objectClass": "Player",
+									"sid": 584865767857293,
+									"parameters": {
+										"instance-variable": "Starpower",
+										"comparison": 4,
+										"value": "0"
+									}
+								},
+								{
+									"id": "is-falling",
+									"objectClass": "Player",
+									"sid": 429269530420822,
+									"behaviorType": "Platform"
+								}
+							],
+							"actions": [
+								{
+									"id": "add-to-instvar",
+									"objectClass": "Player",
+									"sid": 632954066658586,
+									"parameters": {
+										"instance-variable": "Jumps",
+										"value": "1"
+									}
+								},
+								{
+									"id": "set-double-jump",
+									"objectClass": "Player",
+									"sid": 143607472687458,
+									"behaviorType": "Platform",
+									"parameters": {
+										"state": "enabled"
+									}
+								},
+								{
+									"id": "simulate-control",
+									"objectClass": "Player",
+									"sid": 745361749305098,
+									"behaviorType": "Platform",
+									"parameters": {
+										"control": "jump"
+									}
+								},
+								{
+									"callFunction": "Change Starpower",
+									"sid": 341567549734715,
+									"parameters": [
+										"-1"
+									]
+								}
+							],
+							"sid": 895072217535913
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-on-floor",
+							"objectClass": "Player",
+							"sid": 587431769371622,
+							"behaviorType": "Platform"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-instvar-value",
+							"objectClass": "Player",
+							"sid": 899412488098834,
+							"parameters": {
+								"instance-variable": "Jumps",
+								"value": "0"
+							}
+						}
+					],
+					"sid": 456759271166740
+				}
+			],
+			"sid": 322790848811391
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Object Behavior",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 914367709285704,
+							"parameters": {
+								"object": "StarPowerFamily"
+							}
+						}
+					],
+					"actions": [
+						{
+							"callFunction": "Change Starpower",
+							"sid": 587633861341203,
+							"parameters": [
+								"StarPowerFamily.StarValue"
+							]
+						},
+						{
+							"id": "destroy",
+							"objectClass": "StarPowerFamily",
+							"sid": 671769005273597
+						}
+					],
+					"sid": 210843868454351
+				}
+			],
+			"sid": 997400010149446
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "Functions",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"functionName": "Change Starpower",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "PowerAdd",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 508266726265760
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "add-to-instvar",
+							"objectClass": "Player",
+							"sid": 534623516419806,
+							"parameters": {
+								"instance-variable": "Starpower",
+								"value": "PowerAdd"
+							}
+						},
+						{
 							"id": "set-progress",
 							"objectClass": "UI_PowerBar",
-							"sid": 651816448394045,
+							"sid": 994670673669318,
 							"parameters": {
 								"value": "Player.Starpower"
 							}
 						}
 					],
-					"sid": 394247533651671
+					"sid": 193534961177136
 				}
 			],
-			"sid": 322790848811391
+			"sid": 851848254388571
 		}
 	],
 	"sid": 380860116962222
