@@ -6,13 +6,13 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 ## Abilities
 - [ ] Dash
 - [x] UP special
-- [ ] Space to shoot at no cost
+- [x] Space to shoot at no cost
 - [ ] Charge shot cost star power
 
 ## Enemies
 - [x] Slime - Stick to a platform, bump into things
 - [ ] Evil Wizard - Shoots projectile
-- [ ] Fake Star Power - Does something
+- [x] Fake Star Power - Does something
 - [ ] Fake Door - Maybe?
 
 ## To Do
