@@ -284,9 +284,9 @@
 										},
 										{
 											"callFunction": "SpawnStarEffect",
-											"sid": 111309141306487,
+											"sid": 267459782316111,
 											"parameters": [
-												"Enemy.StarReturnValue",
+												"-1",
 												"-10"
 											]
 										}
@@ -571,6 +571,14 @@
 							"sid": 587633861341203,
 							"parameters": [
 								"StarPowerFamily.StarValue"
+							]
+						},
+						{
+							"callFunction": "SpawnStarEffect",
+							"sid": 487084178490673,
+							"parameters": [
+								"StarPowerFamily.StarValue",
+								"0"
 							]
 						},
 						{
@@ -962,11 +970,6 @@
 								{
 									"eventType": "block",
 									"conditions": [
-										{
-											"id": "trigger-once-while-true",
-											"objectClass": "System",
-											"sid": 429734498506915
-										},
 										{
 											"id": "is-timer-running",
 											"objectClass": "GameManager",
