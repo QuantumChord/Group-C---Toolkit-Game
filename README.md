@@ -21,6 +21,7 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Fake Door - Maybe?
 
 ## To Do
+- [ ] Add particle effect for picking up stars and killing enemies
 - [x] Health bar
 - [ ] button/switch to open door
 - [ ] Next Level Door
