@@ -25,7 +25,6 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [x] Health bar
 - [ ] button/switch to open door
 - [ ] Next Level Door
-- [ ] Win conditions
 
 ### Squashed Bugs
 - [ ] Enemies get stuck almost randomly
