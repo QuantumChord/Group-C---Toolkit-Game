@@ -6,7 +6,7 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 ## Demo Level
 - [ ] put level design on paper
 - [ ] mix ideas and make in construct
-- [ ] add paralaxing in level (along with camera controls)
+- [ ] add paralaxing in level (along with camera controls) (AU)
 
 ## Abilities
 - [ ] teleport feature (replacing dash)
@@ -21,12 +21,12 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Fake Door - Maybe?
 
 ## To Do
-- [ ] Add particle effect for picking up stars and killing enemies
+- [ ] Add particle effect for picking up stars and killing enemies (AU)
 - [x] Health bar
 - [ ] button/switch to open door
 - [ ] Next Level Door
 
 ### Squashed Bugs
-- [ ] Enemies get stuck almost randomly
+- [ ] Enemies get stuck almost randomly (AU)
 - [x] When firing left, the projectile looks right
   - Fixed it by mirroring the animation sprite, a cheap solution
