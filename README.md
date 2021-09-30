@@ -7,7 +7,7 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Dash
 - [x] UP special
 - [x] Space to shoot at no cost
-- [ ] Charge shot cost star power
+- [x] Charge shot cost star power
 
 ## Enemies
 - [x] Slime - Stick to a platform, bump into things
