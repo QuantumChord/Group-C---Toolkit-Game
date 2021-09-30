@@ -923,11 +923,6 @@
 							"eventType": "block",
 							"conditions": [
 								{
-									"id": "else",
-									"objectClass": "System",
-									"sid": 429940236892170
-								},
-								{
 									"id": "is-boolean-instance-variable-set",
 									"objectClass": "GroundEnemy",
 									"sid": 128308458286757,
