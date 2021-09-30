@@ -9,7 +9,7 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] add paralaxing in level (along with camera controls)
 
 ## Abilities
-- [ ] Dash
+- [ ] teleport feature (replacing dash)
 - [x] UP special
 - [x] Space to shoot at no cost
 - [x] Charge shot cost star power
