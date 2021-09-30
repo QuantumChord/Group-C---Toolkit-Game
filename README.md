@@ -28,5 +28,6 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 
 ### Squashed Bugs
 - [x] Enemies get stuck almost randomly (AU)
+  - Removed an else statement
 - [x] When firing left, the projectile looks right
   - Fixed it by mirroring the animation sprite, a cheap solution
