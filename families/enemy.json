@@ -1,0 +1,25 @@
+{
+	"name": "Enemy",
+	"plugin-id": "Sprite",
+	"sid": 973072960323561,
+	"instanceVariables": [
+		{
+			"name": "StarReturnValue",
+			"type": "number",
+			"desc": "",
+			"sid": 136510085951316
+		},
+		{
+			"name": "EnemyHealth",
+			"type": "number",
+			"desc": "",
+			"sid": 345368285713001
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"EN_Slime",
+		"EN_Slime2"
+	]
+}

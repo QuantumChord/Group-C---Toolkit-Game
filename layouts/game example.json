@@ -426,6 +426,7 @@
 					"uid": 23,
 					"instanceVariables": {
 						"Left": true,
+						"StarReturnValue": 1,
 						"EnemyHealth": 1
 					},
 					"behaviors": {
@@ -826,6 +827,7 @@
 					"uid": 28,
 					"instanceVariables": {
 						"Left": true,
+						"StarReturnValue": 2,
 						"EnemyHealth": 4
 					},
 					"behaviors": {

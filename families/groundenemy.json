@@ -8,12 +8,6 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 733759157433469
-		},
-		{
-			"name": "EnemyHealth",
-			"type": "number",
-			"desc": "",
-			"sid": 613167964668568
 		}
 	],
 	"behaviorTypes": [

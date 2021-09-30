@@ -147,7 +147,8 @@
 	"families": {
 		"items": [
 			"StarPowerFamily",
-			"GroundEnemy"
+			"GroundEnemy",
+			"Enemy"
 		],
 		"subfolders": []
 	},

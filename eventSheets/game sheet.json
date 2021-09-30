@@ -511,26 +511,26 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Magic_Blast",
-							"sid": 564876478877631,
+							"sid": 448307228333969,
 							"parameters": {
-								"object": "GroundEnemy"
+								"object": "Enemy"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "destroy",
-							"objectClass": "Magic_Blast",
-							"sid": 413548367905499
-						},
-						{
 							"id": "subtract-from-instvar",
-							"objectClass": "GroundEnemy",
-							"sid": 957193406641559,
+							"objectClass": "Enemy",
+							"sid": 142311630245745,
 							"parameters": {
 								"instance-variable": "EnemyHealth",
 								"value": "1"
 							}
+						},
+						{
+							"id": "destroy",
+							"objectClass": "Magic_Blast",
+							"sid": 413548367905499
 						}
 					],
 					"sid": 780208395002559
@@ -721,20 +721,20 @@
 						{
 							"id": "on-collision-with-another-object",
 							"objectClass": "Charged_Blast",
-							"sid": 421052907760631,
+							"sid": 982398940410685,
 							"parameters": {
-								"object": "GroundEnemy"
+								"object": "Enemy"
 							}
 						}
 					],
 					"actions": [
 						{
 							"id": "subtract-from-instvar",
-							"objectClass": "GroundEnemy",
-							"sid": 876326465886097,
+							"objectClass": "Enemy",
+							"sid": 406444010484867,
 							"parameters": {
 								"instance-variable": "EnemyHealth",
-								"value": "4"
+								"value": "5"
 							}
 						}
 					],
@@ -1113,11 +1113,12 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "compare-instance-variable",
-							"objectClass": "GroundEnemy",
-							"sid": 522820255593638,
+							"id": "pick-by-comparison",
+							"objectClass": "System",
+							"sid": 101794599029557,
 							"parameters": {
-								"instance-variable": "EnemyHealth",
+								"object": "Enemy",
+								"expression": "Enemy.EnemyHealth",
 								"comparison": 3,
 								"value": "0"
 							}
@@ -1125,9 +1126,16 @@
 					],
 					"actions": [
 						{
+							"callFunction": "Change Starpower",
+							"sid": 950838996640232,
+							"parameters": [
+								"Enemy.StarReturnValue"
+							]
+						},
+						{
 							"id": "destroy",
-							"objectClass": "GroundEnemy",
-							"sid": 114478419087771
+							"objectClass": "Enemy",
+							"sid": 245762924267936
 						}
 					],
 					"sid": 936221855654878
@@ -1239,6 +1247,41 @@
 								}
 							],
 							"sid": 132110706912052
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 826707810952088,
+									"parameters": {
+										"first-value": "Player.Starpower",
+										"comparison": 4,
+										"second-value": "UI_PowerBar.Maximum"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-instvar-value",
+									"objectClass": "Player",
+									"sid": 636723410068796,
+									"parameters": {
+										"instance-variable": "Starpower",
+										"value": "UI_PowerBar.Maximum"
+									}
+								},
+								{
+									"id": "set-progress",
+									"objectClass": "UI_PowerBar",
+									"sid": 451472840103064,
+									"parameters": {
+										"value": "Player.Starpower"
+									}
+								}
+							],
+							"sid": 260943851314144
 						},
 						{
 							"eventType": "block",
