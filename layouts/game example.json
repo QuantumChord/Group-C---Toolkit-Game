@@ -448,10 +448,10 @@
 					"world": {
 						"x": 1355,
 						"y": 676,
-						"width": 82,
-						"height": 58,
-						"originX": 0.3902439024390244,
-						"originY": 0.20689655172413793,
+						"width": 100,
+						"height": 60,
+						"originX": 0.41,
+						"originY": 0.21666666666666667,
 						"color": [
 							1,
 							1,
@@ -530,7 +530,10 @@
 						"live-preview": false
 					},
 					"uid": 26,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Damage": 1,
+						"DestroyOnContact": true
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -571,7 +574,10 @@
 						"live-preview": false
 					},
 					"uid": 27,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Damage": 1,
+						"DestroyOnContact": true
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -612,7 +618,10 @@
 						"live-preview": false
 					},
 					"uid": 29,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Damage": 5,
+						"DestroyOnContact": false
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -672,7 +681,10 @@
 						"live-preview": false
 					},
 					"uid": 30,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"Damage": 5,
+						"DestroyOnContact": false
+					},
 					"behaviors": {
 						"Bullet": {
 							"properties": {
@@ -1076,7 +1088,7 @@
 							1,
 							1
 						],
-						"angle": 0,
+						"angle": 0.0005837710953904285,
 						"zElevation": 0
 					}
 				}

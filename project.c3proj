@@ -148,7 +148,8 @@
 		"items": [
 			"StarPowerFamily",
 			"GroundEnemy",
-			"Enemy"
+			"Enemy",
+			"Projectile"
 		],
 		"subfolders": []
 	},

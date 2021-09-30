@@ -1,0 +1,27 @@
+{
+	"name": "Projectile",
+	"plugin-id": "Sprite",
+	"sid": 742659287897697,
+	"instanceVariables": [
+		{
+			"name": "Damage",
+			"type": "number",
+			"desc": "",
+			"sid": 907570483162699
+		},
+		{
+			"name": "DestroyOnContact",
+			"type": "boolean",
+			"desc": "",
+			"sid": 513958853787579
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"members": [
+		"Charged_Blast",
+		"Magic_Blast",
+		"Magic_Blast2",
+		"Charged_Blast2"
+	]
+}
