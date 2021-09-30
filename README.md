@@ -17,6 +17,7 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 
 ## To Do
 - [ ] Health bar
+- [ ] button/switch to open door
 - [ ] Next Level Door
 - [ ] Win conditions
 
