@@ -11,9 +11,9 @@
 			"sid": 973729478635015
 		},
 		{
-			"behaviorId": "Timer",
-			"name": "Timer",
-			"sid": 459746881327919
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 110350289115631
 		}
 	],
 	"effectTypes": [

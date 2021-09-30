@@ -744,52 +744,6 @@
 					"eventType": "block",
 					"conditions": [
 						{
-							"id": "on-created",
-							"objectClass": "Charged_Blast",
-							"sid": 673413309792436
-						}
-					],
-					"actions": [
-						{
-							"id": "start-timer",
-							"objectClass": "Charged_Blast",
-							"sid": 234435517506762,
-							"behaviorType": "Timer",
-							"parameters": {
-								"duration": "5",
-								"type": "once",
-								"tag": "\"Timer\""
-							}
-						}
-					],
-					"sid": 966261745238277
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-timer",
-							"objectClass": "Charged_Blast",
-							"sid": 795369989139508,
-							"behaviorType": "Timer",
-							"parameters": {
-								"tag": "\"Timer\""
-							}
-						}
-					],
-					"actions": [
-						{
-							"id": "destroy",
-							"objectClass": "Charged_Blast",
-							"sid": 158823006080752
-						}
-					],
-					"sid": 666035592323427
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
 							"id": "on-key-pressed",
 							"objectClass": "Keyboard",
 							"sid": 819289407533853,
@@ -798,35 +752,82 @@
 							}
 						},
 						{
-							"id": "is-boolean-instance-variable-set",
+							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 508026725596692,
+							"sid": 507357641310059,
 							"parameters": {
-								"instance-variable": "RIght"
+								"instance-variable": "Starpower",
+								"comparison": 5,
+								"value": "3"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "spawn-another-object",
-							"objectClass": "Player",
-							"sid": 855053014370315,
-							"parameters": {
-								"object": "Charged_Blast",
-								"layer": "0",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						},
-						{
 							"callFunction": "Change Starpower",
-							"sid": 844286081441920,
+							"sid": 710724679565094,
 							"parameters": [
 								"-3"
 							]
 						}
 					],
-					"sid": 136972462072539
+					"sid": 136972462072539,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 334319876461223,
+									"parameters": {
+										"instance-variable": "Left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Player",
+									"sid": 752910226077305,
+									"parameters": {
+										"object": "Charged_Blast2",
+										"layer": "0",
+										"image-point": "1",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 993316311905814
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 385825875705564,
+									"parameters": {
+										"instance-variable": "RIght"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "spawn-another-object",
+									"objectClass": "Player",
+									"sid": 249582977152196,
+									"parameters": {
+										"object": "Charged_Blast",
+										"layer": "0",
+										"image-point": "1",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 848937376166171
+						}
+					]
 				},
 				{
 					"eventType": "block",
@@ -838,28 +839,9 @@
 							"parameters": {
 								"key": 69
 							}
-						},
-						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Player",
-							"sid": 527690547384854,
-							"parameters": {
-								"instance-variable": "Left"
-							}
 						}
 					],
 					"actions": [
-						{
-							"id": "spawn-another-object",
-							"objectClass": "Player",
-							"sid": 860778054116494,
-							"parameters": {
-								"object": "Charged_Blast2",
-								"layer": "0",
-								"image-point": "1",
-								"create-hierarchy": false
-							}
-						},
 						{
 							"callFunction": "Change Starpower",
 							"sid": 489150948099042,

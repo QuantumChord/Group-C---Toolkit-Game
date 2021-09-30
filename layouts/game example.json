@@ -624,8 +624,15 @@
 								"enabled": true
 							}
 						},
-						"Timer": {
-							"properties": {}
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0.25,
+								"wait-time": 4,
+								"fade-out-time": 0.75,
+								"destroy": false,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"effects": {
@@ -677,8 +684,15 @@
 								"enabled": true
 							}
 						},
-						"Timer": {
-							"properties": {}
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0.25,
+								"wait-time": 4,
+								"fade-out-time": 0.75,
+								"destroy": true,
+								"enabled": true,
+								"live-preview": false
+							}
 						}
 					},
 					"effects": {
