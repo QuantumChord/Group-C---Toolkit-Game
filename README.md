@@ -3,6 +3,11 @@
 ## Theme
 Wizard collects starpower to use abilities and must meet conditions to get to the exit
 
+## Demo Level
+- [ ] put level design on paper
+- [ ] mix ideas and make in construct
+- [ ] add paralaxing in level (along with camera controls)
+
 ## Abilities
 - [ ] Dash
 - [x] UP special
