@@ -810,31 +810,20 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 158336142481726,
+							"sid": 855053014370315,
 							"parameters": {
 								"object": "Charged_Blast",
 								"layer": "0",
-								"image-point": "0",
+								"image-point": "1",
 								"create-hierarchy": false
 							}
 						},
 						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Player",
-							"sid": 581190230624742,
-							"parameters": {
-								"instance-variable": "Starpower",
-								"value": "3"
-							}
-						},
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "StarPowerFamily",
-							"sid": 609445112649964,
-							"parameters": {
-								"instance-variable": "StarValue",
-								"value": "3"
-							}
+							"callFunction": "Change Starpower",
+							"sid": 844286081441920,
+							"parameters": [
+								"-3"
+							]
 						}
 					],
 					"sid": 136972462072539
@@ -863,31 +852,20 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 818667604363319,
+							"sid": 860778054116494,
 							"parameters": {
 								"object": "Charged_Blast2",
 								"layer": "0",
-								"image-point": "0",
+								"image-point": "1",
 								"create-hierarchy": false
 							}
 						},
 						{
-							"id": "subtract-from-instvar",
-							"objectClass": "Player",
-							"sid": 533293691517906,
-							"parameters": {
-								"instance-variable": "Starpower",
-								"value": "3"
-							}
-						},
-						{
-							"id": "subtract-from-instvar",
-							"objectClass": "StarPowerFamily",
-							"sid": 511290023816236,
-							"parameters": {
-								"instance-variable": "StarValue",
-								"value": "3"
-							}
+							"callFunction": "Change Starpower",
+							"sid": 489150948099042,
+							"parameters": [
+								"-3"
+							]
 						}
 					],
 					"sid": 105796054589876
@@ -1147,7 +1125,7 @@
 					"functionIsAsync": false,
 					"functionParameters": [
 						{
-							"name": "PowerAdd",
+							"name": "PowerPlusMinus",
 							"type": "number",
 							"initialValue": "0",
 							"comment": "",
@@ -1155,18 +1133,7 @@
 						}
 					],
 					"eventType": "function-block",
-					"conditions": [
-						{
-							"id": "compare-two-values",
-							"objectClass": "System",
-							"sid": 972793463921572,
-							"parameters": {
-								"first-value": "Player.Starpower",
-								"comparison": 5,
-								"second-value": "0"
-							}
-						}
-					],
+					"conditions": [],
 					"actions": [
 						{
 							"id": "add-to-instvar",
@@ -1174,7 +1141,7 @@
 							"sid": 534623516419806,
 							"parameters": {
 								"instance-variable": "Starpower",
-								"value": "PowerAdd"
+								"value": "PowerPlusMinus"
 							}
 						},
 						{
