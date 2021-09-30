@@ -863,6 +863,36 @@
 					],
 					"actions": [],
 					"sid": 139238416553871
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "pick-all",
+							"objectClass": "System",
+							"sid": 160659325680854,
+							"parameters": {
+								"object": "PL_GainPowers"
+							}
+						},
+						{
+							"id": "is-on-screen",
+							"objectClass": "PL_GainPowers",
+							"sid": 259534311087497
+						}
+					],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "PL_GainPowers",
+							"sid": 817041284669451,
+							"parameters": {
+								"x": "Player.X",
+								"y": "Player.Y"
+							}
+						}
+					],
+					"sid": 357873569082839
 				}
 			],
 			"sid": 997400010149446
@@ -1174,6 +1204,76 @@
 								}
 							],
 							"sid": 132110706912052
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 424218854894769,
+									"parameters": {
+										"first-value": "Player.Starpower",
+										"comparison": 4,
+										"second-value": "0"
+									}
+								},
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 677172507011562,
+									"parameters": {
+										"first-value": "PowerPlusMinus",
+										"comparison": 2,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 648165540329497,
+									"parameters": {
+										"object-to-create": "PL_LostPower",
+										"layer": "0",
+										"x": "Player.X",
+										"y": "Player.Y",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 719302458635434
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 689345509636232,
+									"parameters": {
+										"first-value": "PowerPlusMinus",
+										"comparison": 4,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 501685218704881,
+									"parameters": {
+										"object-to-create": "PL_GainPowers",
+										"layer": "0",
+										"x": "Player.X",
+										"y": "Player.Y",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 630021071718092
 						}
 					]
 				},
