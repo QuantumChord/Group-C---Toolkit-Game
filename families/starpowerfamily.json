@@ -13,7 +13,7 @@
 	"behaviorTypes": [],
 	"effectTypes": [],
 	"members": [
-		"Starpower",
-		"FakeStapower"
+		"GM_Starpower",
+		"GM_FakeStapower"
 	]
 }

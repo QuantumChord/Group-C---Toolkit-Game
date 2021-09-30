@@ -227,7 +227,7 @@
 					}
 				},
 				{
-					"type": "Starpower",
+					"type": "GM_Starpower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -258,7 +258,7 @@
 					}
 				},
 				{
-					"type": "Starpower",
+					"type": "GM_Starpower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -289,7 +289,7 @@
 					}
 				},
 				{
-					"type": "Starpower",
+					"type": "GM_Starpower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -320,7 +320,7 @@
 					}
 				},
 				{
-					"type": "Starpower",
+					"type": "GM_Starpower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -351,7 +351,7 @@
 					}
 				},
 				{
-					"type": "Starpower",
+					"type": "GM_Starpower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -722,7 +722,7 @@
 					}
 				},
 				{
-					"type": "FakeStapower",
+					"type": "GM_FakeStapower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -753,7 +753,7 @@
 					}
 				},
 				{
-					"type": "FakeStapower",
+					"type": "GM_FakeStapower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -784,7 +784,7 @@
 					}
 				},
 				{
-					"type": "FakeStapower",
+					"type": "GM_FakeStapower",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -903,8 +903,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -22,
-						"y": 675,
+						"x": 6.249441099561054,
+						"y": 677.4041936059001,
 						"width": 25,
 						"height": 50,
 						"originX": 0.5,
@@ -968,7 +968,7 @@
 						"object": -1,
 						"live-preview": false,
 						"speed": 10,
-						"size": 10,
+						"size": 15,
 						"opacity": 100,
 						"grow-rate": -5,
 						"x-randomiser": 100,
@@ -1015,12 +1015,12 @@
 						"speed": 10,
 						"size": 1,
 						"opacity": 100,
-						"grow-rate": 5,
+						"grow-rate": 10,
 						"x-randomiser": 100,
 						"y-randomiser": 100,
 						"initial-speed-randomiser": 0,
 						"size-randomiser": 0,
-						"grow-rate-randomiser": 10,
+						"grow-rate-randomiser": 20,
 						"acceleration": 0,
 						"gravity": -20,
 						"angle-randomiser": 0,

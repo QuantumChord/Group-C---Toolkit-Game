@@ -1,7 +1,7 @@
 {
-	"name": "Starpower",
+	"name": "GM_FakeStapower",
 	"plugin-id": "Sprite",
-	"sid": 624818617214913,
+	"sid": 820519641798060,
 	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": [],
@@ -18,7 +18,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3040102,
+						"imageSpriteId": 752742,
 						"collisionPoly": {
 							"points": [
 								0.26,
@@ -43,7 +43,7 @@
 						"duration": 1
 					}
 				],
-				"sid": 924116974157643,
+				"sid": 448047463011843,
 				"name": "Animation 1",
 				"isLooping": false,
 				"isPingPong": false,
