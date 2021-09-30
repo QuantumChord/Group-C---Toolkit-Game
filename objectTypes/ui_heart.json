@@ -9,6 +9,12 @@
 			"type": "boolean",
 			"desc": "",
 			"sid": 408652127320420
+		},
+		{
+			"name": "HeartID",
+			"type": "number",
+			"desc": "",
+			"sid": 705460911530579
 		}
 	],
 	"behaviorTypes": [],

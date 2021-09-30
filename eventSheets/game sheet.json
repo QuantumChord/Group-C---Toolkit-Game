@@ -1027,6 +1027,14 @@
 									],
 									"actions": [
 										{
+											"id": "wait",
+											"objectClass": "System",
+											"sid": 758962016895453,
+											"parameters": {
+												"seconds": "1.5"
+											}
+										},
+										{
 											"id": "go-to-layout-by-name",
 											"objectClass": "System",
 											"sid": 528976689723822,
@@ -1183,28 +1191,19 @@
 					"functionParameters": [],
 					"eventType": "function-block",
 					"conditions": [],
-					"actions": [
-						{
-							"id": "set-boolean-instvar",
-							"objectClass": "UI_Heart",
-							"sid": 390238423051539,
-							"parameters": {
-								"instance-variable": "Active",
-								"value": "false"
-							}
-						}
-					],
+					"actions": [],
 					"sid": 713754314968124,
 					"children": [
 						{
 							"eventType": "block",
 							"conditions": [
 								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "UI_Heart",
-									"sid": 865861812480030,
+									"id": "pick-nth-instance",
+									"objectClass": "System",
+									"sid": 657071996014619,
 									"parameters": {
-										"instance-variable": "Active"
+										"object": "UI_Heart",
+										"instance": "Player.Health"
 									}
 								}
 							],
@@ -1212,40 +1211,14 @@
 								{
 									"id": "set-animation",
 									"objectClass": "UI_Heart",
-									"sid": 505556550545249,
-									"parameters": {
-										"animation": "\"Full\"",
-										"from": "beginning"
-									}
-								}
-							],
-							"sid": 781062209755728
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "UI_Heart",
-									"sid": 723557543959862,
-									"parameters": {
-										"instance-variable": "Active"
-									},
-									"isInverted": true
-								}
-							],
-							"actions": [
-								{
-									"id": "set-animation",
-									"objectClass": "UI_Heart",
-									"sid": 453930540234875,
+									"sid": 907197989580418,
 									"parameters": {
 										"animation": "\"Empty\"",
 										"from": "beginning"
 									}
 								}
 							],
-							"sid": 476096659673973
+							"sid": 265689163476007
 						}
 					]
 				}
