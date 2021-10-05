@@ -109,6 +109,14 @@
 			"author": "Scirra",
 			"version": "r260",
 			"bundled": false
+		},
+		{
+			"type": "effect",
+			"id": "exposure",
+			"name": "Exposure",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
 		}
 	],
 	"uniqueId": "mqbh8lbw663",
@@ -138,7 +146,10 @@
 			"PL_JumpEffect",
 			"UI_Heart",
 			"PL_LostPower",
-			"PL_GainPowers"
+			"PL_GainPowers",
+			"door",
+			"door_Locked",
+			"Door_Switch"
 		],
 		"subfolders": []
 	},

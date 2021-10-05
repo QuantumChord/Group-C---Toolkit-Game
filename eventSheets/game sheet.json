@@ -542,6 +542,86 @@
 							"sid": 730404677982095
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 995763975560373,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 667860801354371,
+							"parameters": {
+								"instance-variable": "RIght"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-forward",
+							"objectClass": "Player",
+							"sid": 913775350749454,
+							"parameters": {
+								"distance": "100"
+							}
+						},
+						{
+							"callFunction": "Change Starpower",
+							"sid": 282750673615767,
+							"parameters": [
+								"-1"
+							]
+						}
+					],
+					"sid": 657464598819615
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-click",
+							"objectClass": "Mouse",
+							"sid": 447274847124822,
+							"parameters": {
+								"mouse-button": "right",
+								"click-type": "clicked"
+							}
+						},
+						{
+							"id": "is-boolean-instance-variable-set",
+							"objectClass": "Player",
+							"sid": 870485826983057,
+							"parameters": {
+								"instance-variable": "Left"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "move-forward",
+							"objectClass": "Player",
+							"sid": 417090312849945,
+							"parameters": {
+								"distance": "-100"
+							}
+						},
+						{
+							"callFunction": "Change Starpower",
+							"sid": 494411651119040,
+							"parameters": [
+								"-1"
+							]
+						}
+					],
+					"sid": 254170627064250
 				}
 			],
 			"sid": 322790848811391
@@ -862,6 +942,116 @@
 							"sid": 499796530830936
 						}
 					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Charged_Blast",
+							"sid": 416643178721419,
+							"parameters": {
+								"object": "Door_Switch"
+							}
+						},
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Charged_Blast2",
+							"sid": 822073028910661,
+							"parameters": {
+								"object": "Door_Switch"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation-frame",
+							"objectClass": "Door_Switch",
+							"sid": 365472076409982,
+							"parameters": {
+								"frame-number": "1"
+							}
+						},
+						{
+							"id": "set-boolean-instvar",
+							"objectClass": "door_Locked",
+							"sid": 422058349028155,
+							"parameters": {
+								"instance-variable": "unlock",
+								"value": "true"
+							}
+						}
+					],
+					"sid": 750787758947369,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "door_Locked",
+									"sid": 300074657408641,
+									"parameters": {
+										"instance-variable": "unlock"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-effect-parameter",
+									"objectClass": "door_Locked",
+									"sid": 614226511960086,
+									"parameters": {
+										"effect": "\"Exposure\"",
+										"parameter-index": "0",
+										"value": "1000"
+									}
+								},
+								{
+									"id": "destroy",
+									"objectClass": "door_Locked",
+									"sid": 504448496936330
+								},
+								{
+									"id": "spawn-another-object",
+									"objectClass": "door_Locked",
+									"sid": 297046454811673,
+									"parameters": {
+										"object": "door",
+										"layer": "0",
+										"image-point": "0",
+										"create-hierarchy": false
+									}
+								}
+							],
+							"sid": 115736743715484
+						}
+					],
+					"isOrBlock": true
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-collision-with-another-object",
+							"objectClass": "Player",
+							"sid": 153187624711948,
+							"parameters": {
+								"object": "door"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "go-to-nextprevious-layout",
+							"objectClass": "System",
+							"sid": 926559220815127,
+							"parameters": {
+								"which": "next"
+							}
+						}
+					],
+					"sid": 681695555562549
 				}
 			],
 			"sid": 997400010149446
