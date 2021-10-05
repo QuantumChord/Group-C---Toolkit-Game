@@ -9,7 +9,7 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] add paralaxing in level (along with camera controls) (AU)
 
 ## Abilities
-- [ ] teleport feature (replacing dash)
+- [x] teleport feature (replacing dash)
 - [x] UP special
 - [x] Space to shoot at no cost
 - [x] Charge shot cost star power
@@ -31,3 +31,4 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
   - Removed an else statement
 - [x] When firing left, the projectile looks right
   - Fixed it by mirroring the animation sprite, a cheap solution
+- [ ] Can still dash with 0 star pwer
