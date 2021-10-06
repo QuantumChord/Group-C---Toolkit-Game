@@ -6,7 +6,8 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 ## Demo Level
 - [x] put level design on paper
 - [ ] mix ideas and make in construct
-- [ ] add paralaxing in level (along with camera controls) (AU)
+  - Mixed ideas, we need to make it in construct
+- [x] add paralaxing in level (along with camera controls) (AU)
 
 ## Abilities
 - [x] teleport feature (replacing dash)
@@ -31,4 +32,4 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
   - Removed an else statement
 - [x] When firing left, the projectile looks right
   - Fixed it by mirroring the animation sprite, a cheap solution
-- [ ] Can still dash with 0 star pwer
+- [x] Can still dash with 0 star pwer
