@@ -1282,7 +1282,10 @@
 						"live-preview": false
 					},
 					"uid": 5,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"StarReturnValue": 1,
+						"EnemyHealth": 1
+					},
 					"behaviors": {
 						"Turret": {
 							"properties": {
