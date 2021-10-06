@@ -60,6 +60,14 @@
 							"parameters": {
 								"key": 37
 							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 367475737344647,
+							"parameters": {
+								"key": 65
+							}
 						}
 					],
 					"actions": [
@@ -108,7 +116,8 @@
 							}
 						}
 					],
-					"sid": 848694395217195
+					"sid": 848694395217195,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
@@ -119,6 +128,14 @@
 							"sid": 344444906861975,
 							"parameters": {
 								"key": 39
+							}
+						},
+						{
+							"id": "key-is-down",
+							"objectClass": "Keyboard",
+							"sid": 718594642791790,
+							"parameters": {
+								"key": 68
 							}
 						}
 					],
@@ -168,7 +185,8 @@
 							}
 						}
 					],
-					"sid": 473197281452453
+					"sid": 473197281452453,
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
@@ -179,6 +197,14 @@
 							"sid": 375790602229610,
 							"parameters": {
 								"key": 38
+							}
+						},
+						{
+							"id": "on-key-pressed",
+							"objectClass": "Keyboard",
+							"sid": 862367206749513,
+							"parameters": {
+								"key": 87
 							}
 						}
 					],
@@ -296,7 +322,8 @@
 								}
 							]
 						}
-					]
+					],
+					"isOrBlock": true
 				},
 				{
 					"eventType": "block",
@@ -556,72 +583,107 @@
 							}
 						},
 						{
-							"id": "is-boolean-instance-variable-set",
+							"id": "compare-instance-variable",
 							"objectClass": "Player",
-							"sid": 667860801354371,
+							"sid": 370772830665337,
 							"parameters": {
-								"instance-variable": "RIght"
+								"instance-variable": "Starpower",
+								"comparison": 5,
+								"value": "2"
 							}
 						}
 					],
 					"actions": [
 						{
-							"id": "move-forward",
-							"objectClass": "Player",
-							"sid": 913775350749454,
-							"parameters": {
-								"distance": "100"
-							}
-						},
-						{
-							"callFunction": "Change Starpower",
-							"sid": 282750673615767,
+							"callFunction": "SpawnStarEffect",
+							"sid": 152303742014636,
 							"parameters": [
-								"-1"
+								"-1",
+								"-10"
 							]
 						}
 					],
-					"sid": 657464598819615
-				},
-				{
-					"eventType": "block",
-					"conditions": [
+					"sid": 657464598819615,
+					"children": [
 						{
-							"id": "on-click",
-							"objectClass": "Mouse",
-							"sid": 447274847124822,
-							"parameters": {
-								"mouse-button": "right",
-								"click-type": "clicked"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 123055901914400,
+									"parameters": {
+										"instance-variable": "RIght"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-forward",
+									"objectClass": "Player",
+									"sid": 397830462820908,
+									"parameters": {
+										"distance": "100"
+									}
+								},
+								{
+									"callFunction": "Change Starpower",
+									"sid": 413725791759019,
+									"parameters": [
+										"-1"
+									]
+								},
+								{
+									"callFunction": "SpawnStarEffect",
+									"sid": 116896878963213,
+									"parameters": [
+										"-1",
+										"0"
+									]
+								}
+							],
+							"sid": 931332788469513
 						},
 						{
-							"id": "is-boolean-instance-variable-set",
-							"objectClass": "Player",
-							"sid": 870485826983057,
-							"parameters": {
-								"instance-variable": "Left"
-							}
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 552811208928046,
+									"parameters": {
+										"instance-variable": "Left"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "move-forward",
+									"objectClass": "Player",
+									"sid": 973818990402519,
+									"parameters": {
+										"distance": "-100"
+									}
+								},
+								{
+									"callFunction": "Change Starpower",
+									"sid": 667861632643359,
+									"parameters": [
+										"-1"
+									]
+								},
+								{
+									"callFunction": "SpawnStarEffect",
+									"sid": 444162773526239,
+									"parameters": [
+										"-1",
+										"0"
+									]
+								}
+							],
+							"sid": 189162226881362
 						}
-					],
-					"actions": [
-						{
-							"id": "move-forward",
-							"objectClass": "Player",
-							"sid": 417090312849945,
-							"parameters": {
-								"distance": "-100"
-							}
-						},
-						{
-							"callFunction": "Change Starpower",
-							"sid": 494411651119040,
-							"parameters": [
-								"-1"
-							]
-						}
-					],
-					"sid": 254170627064250
+					]
 				}
 			],
 			"sid": 322790848811391
@@ -731,6 +793,13 @@
 							"parameters": [
 								"-3"
 							]
+						},
+						{
+							"callFunction": "Change Starpower",
+							"sid": 315846235574986,
+							"parameters": [
+								"-3"
+							]
 						}
 					],
 					"sid": 136972462072539,
@@ -790,71 +859,6 @@
 							"sid": 848937376166171
 						}
 					]
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 614685675393682,
-							"parameters": {
-								"key": 69
-							}
-						}
-					],
-					"actions": [
-						{
-							"callFunction": "Change Starpower",
-							"sid": 489150948099042,
-							"parameters": [
-								"-3"
-							]
-						}
-					],
-					"sid": 105796054589876
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "every-tick",
-							"objectClass": "System",
-							"sid": 519435665841063
-						}
-					],
-					"actions": [],
-					"sid": 139238416553871
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "pick-all",
-							"objectClass": "System",
-							"sid": 160659325680854,
-							"parameters": {
-								"object": "PL_GainPowers"
-							}
-						},
-						{
-							"id": "is-on-screen",
-							"objectClass": "PL_GainPowers",
-							"sid": 259534311087497
-						}
-					],
-					"actions": [
-						{
-							"id": "set-position",
-							"objectClass": "PL_GainPowers",
-							"sid": 817041284669451,
-							"parameters": {
-								"x": "Player.X",
-								"y": "Player.Y"
-							}
-						}
-					],
-					"sid": 357873569082839
 				},
 				{
 					"eventType": "block",
@@ -1499,9 +1503,9 @@
 								{
 									"id": "set-size",
 									"objectClass": "PL_GainPowers",
-									"sid": 735608684091475,
+									"sid": 810193524766641,
 									"parameters": {
-										"size": "PL_GainPowers.InitSize + AdditionalSize"
+										"size": "1 + AdditionalSize"
 									}
 								},
 								{
@@ -1547,9 +1551,9 @@
 								{
 									"id": "set-size",
 									"objectClass": "PL_LostPower",
-									"sid": 887488349829189,
+									"sid": 457383787936533,
 									"parameters": {
-										"size": "PL_LostPower.InitSize + AdditionalSize"
+										"size": "15 + AdditionalSize"
 									}
 								},
 								{
