@@ -82,6 +82,30 @@
 							"eventType": "block",
 							"conditions": [
 								{
+									"id": "is-moving",
+									"objectClass": "Player",
+									"sid": 883072283484675,
+									"behaviorType": "Platform",
+									"isInverted": true
+								}
+							],
+							"actions": [
+								{
+									"id": "set-animation",
+									"objectClass": "Player",
+									"sid": 858019177615649,
+									"parameters": {
+										"animation": "\"Idle\"",
+										"from": "beginning"
+									}
+								}
+							],
+							"sid": 945945160310006
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
 									"id": "key-is-down",
 									"objectClass": "Keyboard",
 									"sid": 867004218387163,
@@ -115,36 +139,51 @@
 									"parameters": {
 										"control": "left"
 									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 324606444074206,
-									"parameters": {
-										"animation": "\"Walking\"",
-										"from": "beginning"
-									}
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 794450737653762,
-									"parameters": {
-										"instance-variable": "RIght",
-										"value": "false"
-									}
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 137349437943033,
-									"parameters": {
-										"instance-variable": "Left",
-										"value": "true"
-									}
 								}
 							],
 							"sid": 727167680971736,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "trigger-once-while-true",
+											"objectClass": "System",
+											"sid": 507435806132488
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 256934440167053,
+											"parameters": {
+												"animation": "\"Walking\"",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 105416677279737,
+											"parameters": {
+												"instance-variable": "RIght",
+												"value": "false"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 962315771164839,
+											"parameters": {
+												"instance-variable": "Left",
+												"value": "true"
+											}
+										}
+									],
+									"sid": 353116964919619
+								}
+							],
 							"isOrBlock": true
 						},
 						{
@@ -184,36 +223,51 @@
 									"parameters": {
 										"control": "right"
 									}
-								},
-								{
-									"id": "set-animation",
-									"objectClass": "Player",
-									"sid": 263911698845085,
-									"parameters": {
-										"animation": "\"Walking\"",
-										"from": "beginning"
-									}
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 238675324413545,
-									"parameters": {
-										"instance-variable": "RIght",
-										"value": "true"
-									}
-								},
-								{
-									"id": "set-boolean-instvar",
-									"objectClass": "Player",
-									"sid": 438374078678552,
-									"parameters": {
-										"instance-variable": "Left",
-										"value": "false"
-									}
 								}
 							],
 							"sid": 182950216149585,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "trigger-once-while-true",
+											"objectClass": "System",
+											"sid": 562520523668393
+										}
+									],
+									"actions": [
+										{
+											"id": "set-animation",
+											"objectClass": "Player",
+											"sid": 169272751895607,
+											"parameters": {
+												"animation": "\"Walking\"",
+												"from": "beginning"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 124801812052576,
+											"parameters": {
+												"instance-variable": "RIght",
+												"value": "true"
+											}
+										},
+										{
+											"id": "set-boolean-instvar",
+											"objectClass": "Player",
+											"sid": 804433812344775,
+											"parameters": {
+												"instance-variable": "Left",
+												"value": "false"
+											}
+										}
+									],
+									"sid": 788020942212482
+								}
+							],
 							"isOrBlock": true
 						},
 						{
@@ -367,9 +421,9 @@
 								{
 									"id": "set-animation",
 									"objectClass": "Player",
-									"sid": 734381091182551,
+									"sid": 674421775846979,
 									"parameters": {
-										"animation": "\"Walking\"",
+										"animation": "\"Idle\"",
 										"from": "beginning"
 									}
 								},
