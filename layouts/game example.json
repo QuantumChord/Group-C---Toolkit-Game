@@ -738,8 +738,8 @@
 						}
 					},
 					"world": {
-						"x": 3789,
-						"y": 339,
+						"x": 3828,
+						"y": 367,
 						"width": 120,
 						"height": 120,
 						"originX": 0.5,
@@ -1329,6 +1329,112 @@
 						"height": 100,
 						"originX": 0.532608695652174,
 						"originY": 0.49,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 32,
+					"instanceVariables": {
+						"Left": true,
+						"StarReturnValue": 2,
+						"EnemyHealth": 4
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 100,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 2138,
+						"y": 1044,
+						"width": 100,
+						"height": 60,
+						"originX": 0.41,
+						"originY": 0.21666666666666667,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Barrier",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 33,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1820,
+						"y": 1059,
+						"width": 25,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Barrier",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 34,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 2270,
+						"y": 1071,
+						"width": 25,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
