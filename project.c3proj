@@ -119,6 +119,14 @@
 			"bundled": false
 		},
 		{
+			"type": "behavior",
+			"id": "Turret",
+			"name": "Turret",
+			"author": "Scirra",
+			"version": "r260",
+			"bundled": false
+		},
+		{
 			"type": "effect",
 			"id": "hsladjust",
 			"name": "Adjust HSL",
@@ -168,7 +176,9 @@
 			"Door_Switch",
 			"TiledBackground",
 			"TiledBackground2",
-			"TiledBackground3"
+			"TiledBackground3",
+			"EvilWizard",
+			"evilbullet"
 		],
 		"subfolders": []
 	},

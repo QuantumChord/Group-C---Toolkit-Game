@@ -1818,6 +1818,82 @@
 				}
 			],
 			"sid": 851848254388571
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 729528196068599
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "EvilWizard",
+					"sid": 510783520198683,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				}
+			],
+			"sid": 179188890616960
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-shoot",
+					"objectClass": "EvilWizard",
+					"sid": 759648938335408,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "EvilWizard",
+					"sid": 161209638960734,
+					"parameters": {
+						"object": "evilbullet",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 631478694410822
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "evilbullet",
+					"sid": 444087661781741,
+					"parameters": {
+						"object": "Player"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "Player",
+					"sid": 548278034821027,
+					"parameters": {
+						"instance-variable": "Health",
+						"value": "1"
+					}
+				},
+				{
+					"callFunction": "TakeHeart",
+					"sid": 445471587268865
+				}
+			],
+			"sid": 378213182037702
 		}
 	],
 	"sid": 380860116962222

@@ -1,0 +1,63 @@
+{
+	"name": "EvilWizard",
+	"plugin-id": "Sprite",
+	"sid": 432177802813787,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 438074637453272
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 92,
+						"height": 100,
+						"originX": 0.532608695652174,
+						"originY": 0.49,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6070187,
+						"collisionPoly": {
+							"points": [
+								0.09782608695652174,
+								0.09,
+								0.532608695652174,
+								0.05,
+								0.9130434782608695,
+								0.13,
+								0.5108695652173914,
+								0.49,
+								0.6304347826086957,
+								0.58,
+								0.532608695652174,
+								0.87,
+								0.3043478260869565,
+								0.69,
+								0.358695652173913,
+								0.49
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 585793227754111,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

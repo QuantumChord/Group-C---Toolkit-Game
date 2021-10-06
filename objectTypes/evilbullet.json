@@ -1,0 +1,63 @@
+{
+	"name": "evilbullet",
+	"plugin-id": "Sprite",
+	"sid": 255190901656282,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Bullet",
+			"sid": 276843596103394
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 30,
+						"height": 28,
+						"originX": 0.4,
+						"originY": 0.42857142857142855,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 4221302,
+						"collisionPoly": {
+							"points": [
+								0.13333333333333333,
+								0.14285714285714285,
+								0.4,
+								0.03571428571428571,
+								0.6333333333333333,
+								0.14285714285714285,
+								0.9,
+								0.42857142857142855,
+								0.7333333333333333,
+								0.7857142857142857,
+								0.4,
+								0.8928571428571429,
+								0.13333333333333333,
+								0.6785714285714286,
+								0.03333333333333333,
+								0.42857142857142855
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 929696835235013,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}
