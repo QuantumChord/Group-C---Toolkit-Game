@@ -179,7 +179,8 @@
 			"TiledBackground3",
 			"EvilWizard",
 			"evilbullet",
-			"evilportal"
+			"evilportal",
+			"PL_LostHealth"
 		],
 		"subfolders": []
 	},

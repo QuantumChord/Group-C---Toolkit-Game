@@ -566,9 +566,9 @@
 								{
 									"id": "every-x-seconds",
 									"objectClass": "System",
-									"sid": 736713549817863,
+									"sid": 699521402925621,
 									"parameters": {
-										"interval-seconds": "0.5"
+										"interval-seconds": "0.25"
 									}
 								},
 								{
@@ -584,10 +584,10 @@
 								{
 									"id": "add-to-instvar",
 									"objectClass": "GameManager",
-									"sid": 696698192403807,
+									"sid": 583058940558459,
 									"parameters": {
 										"instance-variable": "ChargeTimer",
-										"value": "0.5"
+										"value": "0.25"
 									}
 								}
 							],
@@ -1701,6 +1701,18 @@
 									"parameters": {
 										"animation": "\"Empty\"",
 										"from": "beginning"
+									}
+								},
+								{
+									"id": "create-object",
+									"objectClass": "System",
+									"sid": 240304092664401,
+									"parameters": {
+										"object-to-create": "PL_LostHealth",
+										"layer": "3",
+										"x": "Player.X",
+										"y": "Player.Y",
+										"create-hierarchy": false
 									}
 								}
 							],
