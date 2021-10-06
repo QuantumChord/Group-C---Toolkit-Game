@@ -4,12 +4,12 @@
 Wizard collects starpower to use abilities and must meet conditions to get to the exit
 
 ## Demo Level
-- [ ] put level design on paper
+- [x] put level design on paper
 - [ ] mix ideas and make in construct
 - [ ] add paralaxing in level (along with camera controls) (AU)
 
 ## Abilities
-- [ ] teleport feature (replacing dash)
+- [x] teleport feature (replacing dash)
 - [x] UP special
 - [x] Space to shoot at no cost
 - [x] Charge shot cost star power
@@ -21,13 +21,14 @@ Wizard collects starpower to use abilities and must meet conditions to get to th
 - [ ] Fake Door - Maybe?
 
 ## To Do
-- [ ] Add particle effect for picking up stars and killing enemies (AU)
+- [x] Add particle effect for picking up stars and killing enemies (AU)
 - [x] Health bar
-- [ ] button/switch to open door
-- [ ] Next Level Door
+- [x] button/switch to open door
+- [x] Next Level Door
 
 ### Squashed Bugs
 - [x] Enemies get stuck almost randomly (AU)
   - Removed an else statement
 - [x] When firing left, the projectile looks right
   - Fixed it by mirroring the animation sprite, a cheap solution
+- [ ] Can still dash with 0 star pwer
