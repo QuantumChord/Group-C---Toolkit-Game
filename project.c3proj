@@ -180,7 +180,8 @@
 			"EvilWizard",
 			"evilbullet",
 			"evilportal",
-			"PL_LostHealth"
+			"PL_LostHealth",
+			"PL_TrueCast"
 		],
 		"subfolders": []
 	},

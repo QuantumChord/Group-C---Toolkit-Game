@@ -697,6 +697,52 @@
 								}
 							],
 							"sid": 219832565045814,
+							"children": [
+								{
+									"eventType": "block",
+									"conditions": [
+										{
+											"id": "compare-instance-variable",
+											"objectClass": "GameManager",
+											"sid": 493636733836932,
+											"parameters": {
+												"instance-variable": "ChargeTimer",
+												"comparison": 5,
+												"value": "3"
+											}
+										}
+									],
+									"actions": [],
+									"sid": 174677027940714,
+									"children": [
+										{
+											"eventType": "block",
+											"conditions": [
+												{
+													"id": "trigger-once-while-true",
+													"objectClass": "System",
+													"sid": 790560809211271
+												}
+											],
+											"actions": [
+												{
+													"id": "create-object",
+													"objectClass": "System",
+													"sid": 965801870129494,
+													"parameters": {
+														"object-to-create": "PL_TrueCast",
+														"layer": "3",
+														"x": "Player.ImagePointX(1)",
+														"y": "Player.ImagePointY(1)",
+														"create-hierarchy": false
+													}
+												}
+											],
+											"sid": 491802863527001
+										}
+									]
+								}
+							],
 							"isOrBlock": true
 						},
 						{
@@ -1288,6 +1334,29 @@
 						}
 					],
 					"sid": 681695555562549
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-instance-variable",
+							"objectClass": "GameManager",
+							"sid": 577461429364740,
+							"parameters": {
+								"instance-variable": "ChargeTimer",
+								"comparison": 3,
+								"value": "2"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "destroy",
+							"objectClass": "PL_TrueCast",
+							"sid": 560887784202714
+						}
+					],
+					"sid": 566623648043708
 				}
 			],
 			"sid": 997400010149446
