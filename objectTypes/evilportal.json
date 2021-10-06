@@ -1,0 +1,63 @@
+{
+	"name": "evilportal",
+	"plugin-id": "Sprite",
+	"sid": 154398760219271,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Turret",
+			"name": "Turret",
+			"sid": 581973817335111
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 47,
+						"height": 57,
+						"originX": 0.5531914893617021,
+						"originY": 0.5964912280701754,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 95091,
+						"collisionPoly": {
+							"points": [
+								0.06382978723404255,
+								0.19298245614035087,
+								0.5531914893617021,
+								0.017543859649122806,
+								0.9574468085106383,
+								0.24561403508771928,
+								0.9574468085106383,
+								0.5964912280701754,
+								0.8723404255319149,
+								0.8596491228070176,
+								0.5531914893617021,
+								0.9649122807017544,
+								0.2127659574468085,
+								0.8596491228070176,
+								0.0425531914893617,
+								0.5964912280701754
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 827796953487071,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

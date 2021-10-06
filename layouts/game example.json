@@ -1289,11 +1289,11 @@
 					"behaviors": {
 						"Turret": {
 							"properties": {
-								"range": 300,
+								"range": 100,
 								"rate-of-fire": 1,
-								"rotate": true,
+								"rotate": false,
 								"rotate-speed": 180,
-								"target-mode": "first-in-range",
+								"target-mode": "nearest",
 								"predictive-aim": false,
 								"projectile-speed": 500,
 								"use-collision-cells": true,
@@ -1349,6 +1349,49 @@
 						"height": 28,
 						"originX": 0.4,
 						"originY": 0.42857142857142855,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "evilportal",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 48,
+					"instanceVariables": {},
+					"behaviors": {
+						"Turret": {
+							"properties": {
+								"range": 300,
+								"rate-of-fire": 1,
+								"rotate": true,
+								"rotate-speed": 180,
+								"target-mode": "first-in-range",
+								"predictive-aim": false,
+								"projectile-speed": 500,
+								"use-collision-cells": true,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": -810,
+						"y": -336,
+						"width": 47,
+						"height": 57,
+						"originX": 0.5531914893617021,
+						"originY": 0.5964912280701754,
 						"color": [
 							1,
 							1,

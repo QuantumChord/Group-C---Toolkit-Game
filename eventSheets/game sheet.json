@@ -1867,8 +1867,8 @@
 			"actions": [
 				{
 					"id": "add-object-to-target",
-					"objectClass": "EvilWizard",
-					"sid": 510783520198683,
+					"objectClass": "evilportal",
+					"sid": 884656572853582,
 					"behaviorType": "Turret",
 					"parameters": {
 						"target": "Player"
@@ -1882,16 +1882,16 @@
 			"conditions": [
 				{
 					"id": "on-shoot",
-					"objectClass": "EvilWizard",
-					"sid": 759648938335408,
+					"objectClass": "evilportal",
+					"sid": 190734849620296,
 					"behaviorType": "Turret"
 				}
 			],
 			"actions": [
 				{
 					"id": "spawn-another-object",
-					"objectClass": "EvilWizard",
-					"sid": 161209638960734,
+					"objectClass": "evilportal",
+					"sid": 446129983308757,
 					"parameters": {
 						"object": "evilbullet",
 						"layer": "0",
@@ -1927,9 +1927,61 @@
 				{
 					"callFunction": "TakeHeart",
 					"sid": 445471587268865
+				},
+				{
+					"id": "destroy",
+					"objectClass": "evilportal",
+					"sid": 861097151685954
 				}
 			],
 			"sid": 378213182037702
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 358868657778149
+				}
+			],
+			"actions": [
+				{
+					"id": "add-object-to-target",
+					"objectClass": "EvilWizard",
+					"sid": 606554088011797,
+					"behaviorType": "Turret",
+					"parameters": {
+						"target": "Player"
+					}
+				}
+			],
+			"sid": 331710970799822
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-target-acquired",
+					"objectClass": "EvilWizard",
+					"sid": 130309987466897,
+					"behaviorType": "Turret"
+				}
+			],
+			"actions": [
+				{
+					"id": "spawn-another-object",
+					"objectClass": "EvilWizard",
+					"sid": 935014558831532,
+					"parameters": {
+						"object": "evilportal",
+						"layer": "0",
+						"image-point": "0",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 842334891273794
 		}
 	],
 	"sid": 380860116962222

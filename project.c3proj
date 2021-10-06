@@ -178,7 +178,8 @@
 			"TiledBackground2",
 			"TiledBackground3",
 			"EvilWizard",
-			"evilbullet"
+			"evilbullet",
+			"evilportal"
 		],
 		"subfolders": []
 	},
