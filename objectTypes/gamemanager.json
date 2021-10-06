@@ -3,7 +3,14 @@
 	"plugin-id": "Sprite",
 	"sid": 172219570764744,
 	"isGlobal": false,
-	"instanceVariables": [],
+	"instanceVariables": [
+		{
+			"name": "ChargeTimer",
+			"type": "number",
+			"desc": "",
+			"sid": 902146546932469
+		}
+	],
 	"behaviorTypes": [
 		{
 			"behaviorId": "Timer",

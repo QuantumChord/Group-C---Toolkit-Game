@@ -468,7 +468,9 @@
 						"live-preview": false
 					},
 					"uid": 22,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"ChargeTimer": 0
+					},
 					"behaviors": {
 						"Timer": {
 							"properties": {}
