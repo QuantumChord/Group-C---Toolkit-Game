@@ -570,6 +570,14 @@
 									"parameters": {
 										"interval-seconds": "0.5"
 									}
+								},
+								{
+									"id": "is-boolean-instance-variable-set",
+									"objectClass": "Player",
+									"sid": 148461903788548,
+									"parameters": {
+										"instance-variable": "Casting"
+									}
 								}
 							],
 							"actions": [
@@ -1972,11 +1980,11 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "EvilWizard",
-					"sid": 935014558831532,
+					"sid": 136905203387053,
 					"parameters": {
 						"object": "evilportal",
-						"layer": "0",
-						"image-point": "0",
+						"layer": "3",
+						"image-point": "random(1,3)",
 						"create-hierarchy": false
 					}
 				}

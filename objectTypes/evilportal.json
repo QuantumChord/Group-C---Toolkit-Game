@@ -9,6 +9,11 @@
 			"behaviorId": "Turret",
 			"name": "Turret",
 			"sid": 581973817335111
+		},
+		{
+			"behaviorId": "Fade",
+			"name": "Fade",
+			"sid": 399569747725642
 		}
 	],
 	"effectTypes": [],

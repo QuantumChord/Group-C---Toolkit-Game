@@ -1283,13 +1283,13 @@
 					},
 					"uid": 5,
 					"instanceVariables": {
-						"StarReturnValue": 1,
-						"EnemyHealth": 1
+						"StarReturnValue": 2,
+						"EnemyHealth": 3
 					},
 					"behaviors": {
 						"Turret": {
 							"properties": {
-								"range": 100,
+								"range": 300,
 								"rate-of-fire": 1,
 								"rotate": false,
 								"rotate-speed": 180,
@@ -1369,12 +1369,15 @@
 						"live-preview": false
 					},
 					"uid": 48,
-					"instanceVariables": {},
+					"instanceVariables": {
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
 					"behaviors": {
 						"Turret": {
 							"properties": {
 								"range": 300,
-								"rate-of-fire": 1,
+								"rate-of-fire": 1.5,
 								"rotate": true,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
@@ -1382,6 +1385,16 @@
 								"projectile-speed": 500,
 								"use-collision-cells": true,
 								"enabled": true
+							}
+						},
+						"Fade": {
+							"properties": {
+								"fade-in-time": 0.5,
+								"wait-time": 3,
+								"fade-out-time": 2,
+								"destroy": true,
+								"enabled": false,
+								"live-preview": false
 							}
 						}
 					},
