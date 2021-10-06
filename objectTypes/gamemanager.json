@@ -9,6 +9,11 @@
 			"behaviorId": "Timer",
 			"name": "Timer",
 			"sid": 240992286410464
+		},
+		{
+			"behaviorId": "scrollto",
+			"name": "ScrollTo",
+			"sid": 293673169498182
 		}
 	],
 	"effectTypes": [],
@@ -24,7 +29,7 @@
 						"originalSource": "",
 						"exportFormat": "png",
 						"exportQuality": 0.8,
-						"imageSpriteId": 3910626,
+						"imageSpriteId": 6076573,
 						"useCollisionPoly": true,
 						"duration": 1
 					}

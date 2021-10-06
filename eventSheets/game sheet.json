@@ -44,6 +44,27 @@
 			"sid": 178499633086813
 		},
 		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 965441925810097
+				}
+			],
+			"actions": [
+				{
+					"callFunction": "MoveCamera",
+					"sid": 736136693431460,
+					"parameters": [
+						"0",
+						"-100"
+					]
+				}
+			],
+			"sid": 450827449983829
+		},
+		{
 			"eventType": "group",
 			"disabled": false,
 			"title": "Player",
@@ -401,10 +422,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 334575505575991,
+							"sid": 568100380868504,
 							"parameters": {
 								"object": "Magic_Blast",
-								"layer": "0",
+								"layer": "3",
 								"image-point": "1",
 								"create-hierarchy": false
 							}
@@ -454,10 +475,10 @@
 						{
 							"id": "spawn-another-object",
 							"objectClass": "Player",
-							"sid": 696120273547883,
+							"sid": 310088600910944,
 							"parameters": {
 								"object": "Magic_Blast2",
-								"layer": "0",
+								"layer": "3",
 								"image-point": "1",
 								"create-hierarchy": false
 							}
@@ -556,10 +577,10 @@
 								{
 									"id": "create-object",
 									"objectClass": "System",
-									"sid": 522541473813046,
+									"sid": 412859231713945,
 									"parameters": {
 										"object-to-create": "PL_JumpEffect",
-										"layer": "0",
+										"layer": "3",
 										"x": "Player.ImagePointX(0)",
 										"y": "Player.ImagePointY(0)",
 										"create-hierarchy": false
@@ -820,10 +841,10 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "Player",
-									"sid": 752910226077305,
+									"sid": 877812799848781,
 									"parameters": {
 										"object": "Charged_Blast2",
-										"layer": "0",
+										"layer": "3",
 										"image-point": "1",
 										"create-hierarchy": false
 									}
@@ -847,10 +868,10 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "Player",
-									"sid": 249582977152196,
+									"sid": 994553391553070,
 									"parameters": {
 										"object": "Charged_Blast",
-										"layer": "0",
+										"layer": "3",
 										"image-point": "1",
 										"create-hierarchy": false
 									}
@@ -1019,10 +1040,10 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "door_Locked",
-									"sid": 297046454811673,
+									"sid": 916270688921468,
 									"parameters": {
 										"object": "door",
-										"layer": "0",
+										"layer": "3",
 										"image-point": "0",
 										"create-hierarchy": false
 									}
@@ -1511,10 +1532,10 @@
 								{
 									"id": "create-object",
 									"objectClass": "System",
-									"sid": 664052808771340,
+									"sid": 217313899489144,
 									"parameters": {
 										"object-to-create": "PL_GainPowers",
-										"layer": "0",
+										"layer": "3",
 										"x": "Player.X",
 										"y": "Player.Y",
 										"create-hierarchy": false
@@ -1559,10 +1580,10 @@
 								{
 									"id": "create-object",
 									"objectClass": "System",
-									"sid": 590037419429602,
+									"sid": 184076307925870,
 									"parameters": {
 										"object-to-create": "PL_LostPower",
-										"layer": "0",
+										"layer": "3",
 										"x": "Player.X",
 										"y": "Player.Y",
 										"create-hierarchy": false
@@ -1572,6 +1593,43 @@
 							"sid": 460907208795437
 						}
 					]
+				},
+				{
+					"functionName": "MoveCamera",
+					"functionDescription": "",
+					"functionCategory": "",
+					"functionReturnType": "none",
+					"functionIsAsync": false,
+					"functionParameters": [
+						{
+							"name": "OffsetX",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 695722571087793
+						},
+						{
+							"name": "OffsetY",
+							"type": "number",
+							"initialValue": "0",
+							"comment": "",
+							"sid": 844405473580077
+						}
+					],
+					"eventType": "function-block",
+					"conditions": [],
+					"actions": [
+						{
+							"id": "set-position",
+							"objectClass": "GameManager",
+							"sid": 760016445390975,
+							"parameters": {
+								"x": "lerp(GameManager.X,Player.X,0.3) + OffsetX",
+								"y": "lerp(GameManager.Y,Player.Y,0.3) + OffsetY"
+							}
+						}
+					],
+					"sid": 718886798064678
 				}
 			],
 			"sid": 851848254388571

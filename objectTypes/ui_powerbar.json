@@ -2,7 +2,7 @@
 	"name": "UI_PowerBar",
 	"plugin-id": "progressbar",
 	"sid": 931809595018442,
-	"isGlobal": true,
+	"isGlobal": false,
 	"instanceVariables": [],
 	"behaviorTypes": []
 }
