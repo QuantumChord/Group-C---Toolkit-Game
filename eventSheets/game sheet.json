@@ -774,6 +774,16 @@
 														"comparison": 5,
 														"value": "3"
 													}
+												},
+												{
+													"id": "compare-instance-variable",
+													"objectClass": "Player",
+													"sid": 173977787840375,
+													"parameters": {
+														"instance-variable": "Starpower",
+														"comparison": 5,
+														"value": "3"
+													}
 												}
 											],
 											"actions": [
@@ -812,6 +822,13 @@
 														"instance-variable": "ChargeTimer",
 														"value": "0"
 													}
+												},
+												{
+													"callFunction": "Change Starpower",
+													"sid": 727621618982557,
+													"parameters": [
+														"-3"
+													]
 												}
 											],
 											"sid": 110652104328974,
@@ -1074,95 +1091,6 @@
 						}
 					],
 					"sid": 596128683499064
-				},
-				{
-					"eventType": "block",
-					"conditions": [
-						{
-							"id": "on-key-pressed",
-							"objectClass": "Keyboard",
-							"sid": 819289407533853,
-							"parameters": {
-								"key": 69
-							}
-						},
-						{
-							"id": "compare-instance-variable",
-							"objectClass": "Player",
-							"sid": 507357641310059,
-							"parameters": {
-								"instance-variable": "Starpower",
-								"comparison": 5,
-								"value": "3"
-							}
-						}
-					],
-					"actions": [
-						{
-							"callFunction": "Change Starpower",
-							"sid": 710724679565094,
-							"parameters": [
-								"-3"
-							]
-						}
-					],
-					"sid": 136972462072539,
-					"children": [
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 334319876461223,
-									"parameters": {
-										"instance-variable": "Left"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "spawn-another-object",
-									"objectClass": "Player",
-									"sid": 877812799848781,
-									"parameters": {
-										"object": "Charged_Blast2",
-										"layer": "3",
-										"image-point": "1",
-										"create-hierarchy": false
-									}
-								}
-							],
-							"sid": 993316311905814
-						},
-						{
-							"eventType": "block",
-							"conditions": [
-								{
-									"id": "is-boolean-instance-variable-set",
-									"objectClass": "Player",
-									"sid": 385825875705564,
-									"parameters": {
-										"instance-variable": "RIght"
-									}
-								}
-							],
-							"actions": [
-								{
-									"id": "spawn-another-object",
-									"objectClass": "Player",
-									"sid": 994553391553070,
-									"parameters": {
-										"object": "Charged_Blast",
-										"layer": "3",
-										"image-point": "1",
-										"create-hierarchy": false
-									}
-								}
-							],
-							"sid": 848937376166171
-						}
-					]
 				},
 				{
 					"eventType": "block",
