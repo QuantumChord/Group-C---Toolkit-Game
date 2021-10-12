@@ -1962,11 +1962,11 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "evilportal",
-					"sid": 446129983308757,
+					"sid": 350579212104046,
 					"parameters": {
 						"object": "evilbullet",
-						"layer": "0",
-						"image-point": "0",
+						"layer": "evilportal.LayerNumber",
+						"image-point": "evilportal.LayerNumber",
 						"create-hierarchy": false
 					}
 				}

@@ -841,14 +841,14 @@
 					"behaviors": {
 						"Turret": {
 							"properties": {
-								"range": 300,
+								"range": 350,
 								"rate-of-fire": 1.5,
-								"rotate": true,
+								"rotate": false,
 								"rotate-speed": 180,
 								"target-mode": "first-in-range",
-								"predictive-aim": false,
+								"predictive-aim": true,
 								"projectile-speed": 500,
-								"use-collision-cells": true,
+								"use-collision-cells": false,
 								"enabled": true
 							}
 						},
@@ -868,8 +868,8 @@
 						"y": -336,
 						"width": 47,
 						"height": 57,
-						"originX": 0.5531914893617021,
-						"originY": 0.5964912280701754,
+						"originX": 0.5319148936170213,
+						"originY": 0.47368421052631576,
 						"color": [
 							1,
 							1,
@@ -1300,8 +1300,8 @@
 								"rate-of-fire": 1,
 								"rotate": false,
 								"rotate-speed": 180,
-								"target-mode": "nearest",
-								"predictive-aim": false,
+								"target-mode": "first-in-range",
+								"predictive-aim": true,
 								"projectile-speed": 500,
 								"use-collision-cells": true,
 								"enabled": true
