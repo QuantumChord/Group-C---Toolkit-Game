@@ -386,54 +386,6 @@
 						"angle": 0,
 						"zElevation": 0
 					}
-				},
-				{
-					"type": "EN_Slime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 25,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 150,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 199,
-						"y": 902,
-						"width": 54.00000000000001,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
 				}
 			],
 			"sid": 959992520003910,
