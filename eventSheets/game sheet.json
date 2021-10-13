@@ -475,10 +475,10 @@
 										{
 											"id": "create-object",
 											"objectClass": "System",
-											"sid": 441948703532969,
+											"sid": 930373425394114,
 											"parameters": {
 												"object-to-create": "PL_JumpEffect",
-												"layer": "3",
+												"layer": "1",
 												"x": "Player.ImagePointX(0)",
 												"y": "Player.ImagePointY(0)",
 												"create-hierarchy": false
@@ -728,10 +728,10 @@
 												{
 													"id": "create-object",
 													"objectClass": "System",
-													"sid": 965801870129494,
+													"sid": 425695304451231,
 													"parameters": {
 														"object-to-create": "PL_TrueCast",
-														"layer": "3",
+														"layer": "1",
 														"x": "Player.ImagePointX(1)",
 														"y": "Player.ImagePointY(1)",
 														"create-hierarchy": false
@@ -895,10 +895,10 @@
 														{
 															"id": "spawn-another-object",
 															"objectClass": "Player",
-															"sid": 770858830090269,
+															"sid": 631060665705926,
 															"parameters": {
 																"object": "Charged_Blast2",
-																"layer": "3",
+																"layer": "1",
 																"image-point": "1",
 																"create-hierarchy": false
 															}
@@ -922,10 +922,10 @@
 														{
 															"id": "spawn-another-object",
 															"objectClass": "Player",
-															"sid": 499511605675515,
+															"sid": 218876217260611,
 															"parameters": {
 																"object": "Charged_Blast",
-																"layer": "3",
+																"layer": "1",
 																"image-point": "1",
 																"create-hierarchy": false
 															}
@@ -988,10 +988,10 @@
 														{
 															"id": "spawn-another-object",
 															"objectClass": "Player",
-															"sid": 421928409790328,
+															"sid": 952136223006467,
 															"parameters": {
 																"object": "Magic_Blast",
-																"layer": "3",
+																"layer": "1",
 																"image-point": "1",
 																"create-hierarchy": false
 															}
@@ -1015,10 +1015,10 @@
 														{
 															"id": "spawn-another-object",
 															"objectClass": "Player",
-															"sid": 191820264397767,
+															"sid": 259565959860980,
 															"parameters": {
 																"object": "Magic_Blast2",
-																"layer": "3",
+																"layer": "1",
 																"image-point": "1",
 																"create-hierarchy": false
 															}
@@ -1297,10 +1297,10 @@
 								{
 									"id": "spawn-another-object",
 									"objectClass": "door_Locked",
-									"sid": 916270688921468,
+									"sid": 727787938555965,
 									"parameters": {
 										"object": "door",
-										"layer": "3",
+										"layer": "1",
 										"image-point": "0",
 										"create-hierarchy": false
 									}
@@ -2043,10 +2043,10 @@
 				{
 					"id": "spawn-another-object",
 					"objectClass": "EvilWizard",
-					"sid": 136905203387053,
+					"sid": 500911891872224,
 					"parameters": {
 						"object": "evilportal",
-						"layer": "3",
+						"layer": "1",
 						"image-point": "random(1,3)",
 						"create-hierarchy": false
 					}

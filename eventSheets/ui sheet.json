@@ -10,16 +10,7 @@
 					"sid": 969553898017712
 				}
 			],
-			"actions": [
-				{
-					"id": "go-to-layout",
-					"objectClass": "System",
-					"sid": 635937858207810,
-					"parameters": {
-						"layout": "Game Example"
-					}
-				}
-			],
+			"actions": [],
 			"sid": 559240160171211
 		}
 	],
