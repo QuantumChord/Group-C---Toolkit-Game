@@ -1495,53 +1495,49 @@
 								{
 									"id": "on-collision-with-another-object",
 									"objectClass": "GroundEnemy",
-									"sid": 353042008255777,
+									"sid": 225319699778153,
 									"parameters": {
-										"object": "EN_Barrier"
+										"object": "EN_BarrierLeft"
 									}
 								}
 							],
-							"actions": [],
-							"sid": 672167740408766,
-							"children": [
+							"actions": [
 								{
-									"eventType": "block",
-									"conditions": [
-										{
-											"id": "is-timer-running",
-											"objectClass": "GameManager",
-											"sid": 952710518969142,
-											"behaviorType": "Timer",
-											"parameters": {
-												"tag": "\"GroundDirection\"&GroundEnemy.UID"
-											},
-											"isInverted": true
-										}
-									],
-									"actions": [
-										{
-											"id": "toggle-boolean-instvar",
-											"objectClass": "GroundEnemy",
-											"sid": 124328884665485,
-											"parameters": {
-												"instance-variable": "Left"
-											}
-										},
-										{
-											"id": "start-timer",
-											"objectClass": "GameManager",
-											"sid": 954332733116751,
-											"behaviorType": "Timer",
-											"parameters": {
-												"duration": "1.0",
-												"type": "once",
-												"tag": "\"GroundDirection\"&GroundEnemy.UID"
-											}
-										}
-									],
-									"sid": 713521753250234
+									"id": "set-boolean-instvar",
+									"objectClass": "GroundEnemy",
+									"sid": 719114951543657,
+									"parameters": {
+										"instance-variable": "Left",
+										"value": "false"
+									}
 								}
-							]
+							],
+							"sid": 172917721756279
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "GroundEnemy",
+									"sid": 353042008255777,
+									"parameters": {
+										"object": "EN_BarrierRight"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-instvar",
+									"objectClass": "GroundEnemy",
+									"sid": 873094110147948,
+									"parameters": {
+										"instance-variable": "Left",
+										"value": "true"
+									}
+								}
+							],
+							"sid": 672167740408766
 						},
 						{
 							"eventType": "block",
@@ -2102,11 +2098,11 @@
 				{
 					"id": "compare-instance-variable",
 					"objectClass": "UI_Heart",
-					"sid": 562976675701675,
+					"sid": 123368636979181,
 					"parameters": {
 						"instance-variable": "HeartID",
-						"comparison": 2,
-						"value": "1"
+						"comparison": 0,
+						"value": "0"
 					}
 				}
 			],
@@ -2143,6 +2139,24 @@
 				}
 			],
 			"sid": 643807665291124
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-destroyed",
+					"objectClass": "EvilWizard",
+					"sid": 915656124336931
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "evilportal",
+					"sid": 628206916273334
+				}
+			],
+			"sid": 874917192292409
 		}
 	],
 	"sid": 380860116962222

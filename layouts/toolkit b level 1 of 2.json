@@ -1034,48 +1034,6 @@
 					}
 				},
 				{
-					"type": "Put_Enemies_Here",
-					"properties": {
-						"text": "Put Enemies Here. Then delete message.",
-						"enable-bbcode": true,
-						"font": "Cambria",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 58,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 569,
-						"y": 754,
-						"width": 200,
-						"height": 41,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Avoid_Enemies",
 					"properties": {
 						"text": "Sometimes it's possible to avoid your enemies...",
@@ -1105,48 +1063,6 @@
 						"y": 606,
 						"width": 256,
 						"height": 64,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Put_Enemies_Here",
-					"properties": {
-						"text": "Put Enemies Here. Then delete message.",
-						"enable-bbcode": true,
-						"font": "Cambria",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 82,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 131,
-						"y": 840,
-						"width": 200,
-						"height": 41,
 						"originX": 0,
 						"originY": 0,
 						"color": [

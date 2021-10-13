@@ -165,7 +165,7 @@
 			"GM_Starpower",
 			"GameManager",
 			"EN_Slime",
-			"EN_Barrier",
+			"EN_BarrierRight",
 			"Magic_Blast",
 			"Magic_Blast2",
 			"EN_Slime2",
@@ -184,7 +184,8 @@
 			"evilbullet",
 			"evilportal",
 			"PL_LostHealth",
-			"PL_TrueCast"
+			"PL_TrueCast",
+			"EN_BarrierLeft"
 		],
 		"subfolders": [
 			{
