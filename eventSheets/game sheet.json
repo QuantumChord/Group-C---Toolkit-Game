@@ -1032,6 +1032,48 @@
 								}
 							],
 							"isOrBlock": true
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Magic_Blast",
+									"sid": 865605456623471,
+									"parameters": {
+										"object": "Tilemap"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Magic_Blast",
+									"sid": 548231044996642
+								}
+							],
+							"sid": 471160315343535
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "on-collision-with-another-object",
+									"objectClass": "Magic_Blast2",
+									"sid": 470878464338374,
+									"parameters": {
+										"object": "Tilemap"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "destroy",
+									"objectClass": "Magic_Blast2",
+									"sid": 151166137882566
+								}
+							],
+							"sid": 206068627411634
 						}
 					],
 					"sid": 265851867608664
