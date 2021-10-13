@@ -1442,7 +1442,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1460,7 +1460,7 @@
 						"y": 255,
 						"width": 54.00000000000001,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1519,7 +1519,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1537,7 +1537,7 @@
 						"y": 386.7548804925215,
 						"width": 37.09568289322625,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1567,7 +1567,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1585,7 +1585,7 @@
 						"y": -127.24511950747848,
 						"width": 37.09568289322625,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1615,7 +1615,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1633,7 +1633,7 @@
 						"y": 289.58172794298804,
 						"width": 33.89758674535097,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1663,7 +1663,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1681,7 +1681,7 @@
 						"y": 390.6083327301174,
 						"width": 33.89758674535097,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1711,7 +1711,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1729,7 +1729,7 @@
 						"y": 292.82875653195805,
 						"width": 33.89758674535097,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1759,7 +1759,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1777,7 +1777,7 @@
 						"y": 292.3735192708018,
 						"width": 37.09568289322625,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1807,7 +1807,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1825,7 +1825,7 @@
 						"y": 197.29356103568136,
 						"width": 37.09568289322625,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1855,7 +1855,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1873,7 +1873,7 @@
 						"y": 195.47164137197294,
 						"width": 37.09568289322625,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1903,7 +1903,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1921,7 +1921,7 @@
 						"y": 389.2876892089844,
 						"width": 33.89758674535097,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -1951,7 +1951,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -1969,7 +1969,7 @@
 						"y": 196.37644834981776,
 						"width": 33.89758674535097,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -2639,7 +2639,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -2657,7 +2657,7 @@
 						"y": 550,
 						"width": 37.09568289322625,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -2687,7 +2687,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -2705,7 +2705,7 @@
 						"y": 550,
 						"width": 33.89758674535097,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,

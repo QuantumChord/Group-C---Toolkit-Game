@@ -41,7 +41,7 @@
 						"y": -316,
 						"width": 54.00000000000001,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
@@ -405,7 +405,7 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
+								"max-speed": 150,
 								"acceleration": 1500,
 								"deceleration": 1500,
 								"jump-strength": 650,
@@ -423,7 +423,7 @@
 						"y": 902,
 						"width": 54.00000000000001,
 						"height": 27.000000000000004,
-						"originX": 0.4228723404255319,
+						"originX": 0.5771276595744681,
 						"originY": -0.06684256816182932,
 						"color": [
 							1,
