@@ -2053,6 +2053,54 @@
 				}
 			],
 			"sid": 842334891273794
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "UI_Heart",
+					"sid": 562976675701675,
+					"parameters": {
+						"instance-variable": "HeartID",
+						"comparison": 2,
+						"value": "1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 444929685012623,
+					"parameters": {
+						"layout": "Main Menu"
+					}
+				}
+			],
+			"sid": 506156805891865
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 579100983603863
+				}
+			],
+			"actions": [
+				{
+					"id": "set-instvar-value",
+					"objectClass": "UI_Heart",
+					"sid": 100564737121771,
+					"parameters": {
+						"instance-variable": "HeartID",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 643807665291124
 		}
 	],
 	"sid": 380860116962222
