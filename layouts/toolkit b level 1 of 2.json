@@ -671,62 +671,6 @@
 					}
 				},
 				{
-					"type": "evilportal",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 72,
-					"instanceVariables": {
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Turret": {
-							"properties": {
-								"range": 350,
-								"rate-of-fire": 1.5,
-								"rotate": false,
-								"rotate-speed": 180,
-								"target-mode": "first-in-range",
-								"predictive-aim": true,
-								"projectile-speed": 500,
-								"use-collision-cells": false,
-								"enabled": true
-							}
-						},
-						"Fade": {
-							"properties": {
-								"fade-in-time": 0.5,
-								"wait-time": 3,
-								"fade-out-time": 2,
-								"destroy": true,
-								"enabled": false,
-								"live-preview": false
-							}
-						}
-					},
-					"world": {
-						"x": -517,
-						"y": -359.1578947368421,
-						"width": 0,
-						"height": 58.84210526315789,
-						"originX": 0.5329624679406133,
-						"originY": 0.5271631673100461,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "PL_LostHealth",
 					"properties": {
 						"rate": 20,
