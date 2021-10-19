@@ -195,7 +195,10 @@
 					"Replenish",
 					"Teleport",
 					"Put_Enemies_Here",
-					"Avoid_Enemies"
+					"Avoid_Enemies",
+					"Attack_1",
+					"Attack_2",
+					"Ascend"
 				],
 				"subfolders": [],
 				"name": "Instructions"
@@ -206,7 +209,8 @@
 					"Art_Foreground",
 					"TiledBackground",
 					"TiledBackground2",
-					"TiledBackground3"
+					"TiledBackground3",
+					"Endgame_msg"
 				],
 				"subfolders": [],
 				"name": "Background"
@@ -227,17 +231,18 @@
 	"layouts": {
 		"items": [
 			"Main Menu",
-			"UI",
-			"Toolkit B Level 1 of 2",
-			"Toolkit B Level 2 of 2"
+			"Toolkit B Level 1 of 4",
+			"Toolkit B Level 2 of 4",
+			"Toolkit B Level 3 of 4",
+			"Toolkit B Level 4 of 4",
+			"Endgame"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Game Sheet",
-			"Main Menu Sheet",
-			"UI Sheet"
+			"Main Menu Sheet"
 		],
 		"subfolders": []
 	},

@@ -1,5 +1,5 @@
 {
-	"name": "Toolkit B Level 1 of 2",
+	"name": "Toolkit B Level 1 of 4",
 	"layers": [
 		{
 			"name": "Background",
@@ -142,9 +142,9 @@
 						"Platform": {
 							"properties": {
 								"max-speed": 270,
-								"acceleration": 750,
-								"deceleration": 750,
-								"jump-strength": 450,
+								"acceleration": 500,
+								"deceleration": 1500,
+								"jump-strength": 400,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
 								"double-jump": true,
@@ -249,8 +249,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 768,
-						"y": 160,
+						"x": 830,
+						"y": 190,
 						"width": 256,
 						"height": 64,
 						"originX": 0,
@@ -938,7 +938,7 @@
 				{
 					"type": "Teleport",
 					"properties": {
-						"text": "When it might appear as though you're stuck, try using your teleport to traverse the terrain. Right click to teleport. Use it wisely.\n\nOtherwise, press 'R' to restart.",
+						"text": "When it might appear as though you're stuck, try using your teleport ability (Right click while facing left or right) to traverse the terrain. Use it wisely, teleportation expends your mana bar.\n\nOtherwise, press 'R' to restart at the start of the level.",
 						"enable-bbcode": true,
 						"font": "Cambria",
 						"size": 12,
@@ -961,10 +961,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1439,
-						"y": 529,
-						"width": 271,
-						"height": 125,
+						"x": 1440,
+						"y": 512,
+						"width": 286,
+						"height": 159,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -1124,6 +1124,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "GameManager",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 107,
+					"instanceVariables": {
+						"ChargeTimer": 0
+					},
+					"behaviors": {
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 380,
+						"y": -401,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 361948385971510,
@@ -1154,8 +1189,161 @@
 		},
 		{
 			"name": "UI",
-			"overriden": 1,
-			"instances": [],
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "UI_StarpowerIcon",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 11,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 30,
+						"y": 32,
+						"width": 72.30148960970696,
+						"height": 72.30148960970696,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UI_PowerBar",
+					"properties": {
+						"value": 0,
+						"maximum": 20,
+						"tooltip": "",
+						"initially-visible": true,
+						"id": ""
+					},
+					"uid": 72,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 65,
+						"y": 7,
+						"width": 217.31993503020297,
+						"height": 27.16499187877537,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "UI_Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Full",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 86,
+					"instanceVariables": {
+						"Active": true,
+						"HeartID": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 90,
+						"y": 61,
+						"width": 60,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UI_Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Full",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 98,
+					"instanceVariables": {
+						"Active": true,
+						"HeartID": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 137,
+						"y": 61,
+						"width": 60,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UI_Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Full",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 104,
+					"instanceVariables": {
+						"Active": true,
+						"HeartID": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 184,
+						"y": 62,
+						"width": 60,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 678019717571231,
 			"effectTypes": [],
 			"isInitiallyVisible": true,

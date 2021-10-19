@@ -1,5 +1,5 @@
 {
-	"name": "Toolkit B Level 2 of 2",
+	"name": "Toolkit B Level 3 of 4",
 	"layers": [
 		{
 			"name": "Background",
@@ -95,7 +95,7 @@
 							"height": 33,
 							"max-width": 385,
 							"max-height": 216,
-							"data": "34x11hd,182x0,4x11hd,3x0,27x11hd,182x0,3x11hd,5x0,25x11hd,183x0,2x11hd,6x0,25x11hd,183x0,2x11hd,7x0,24x11hd,183x0,2x11hd,7x0,25x11hd,182x0,2x11hd,6x0,26x11hd,182x0,3x11hd,5x0,26x11hd,182x0,5x11hd,3x0,26x11hd,182x0,13x11hd,4x0,11hd,3x0,11hd,8x0,4x11hd,182x0,12x11hd,5x0,11hd,3x0,11hd,8x0,4x11hd,182x0,4x11hd,4x0,2x11hd,7x0,11hd,3x0,11hd,8x0,4x11hd,182x0,3x11hd,5x0,2x11hd,20x0,4x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,11x0,11hd,10x0,2x11hd,182x0,2x11hd,6x0,2x11hd,11x0,11hd,10x0,2x11hd,182x0,2x11hd,5x0,2x11hd,11x0,2x11hd,10x0,2x11hd,182x0,2x11hd,5x0,2x11hd,10x0,3x11hd,7x0,2x11hd,0,2x11hd,182x0,2x11hd,5x0,2x11hd,10x0,2x11hd,8x0,11hd,2x0,2x11hd,182x0,2x11hd,5x0,2x11hd,9x0,3x11hd,8x0,11hd,2x0,2x11hd,182x0,2x11hd,5x0,2x11hd,6x0,11hd,2x0,3x11hd,9x0,11hd,0,2x11hd,182x0,2x11hd,5x0,2x11hd,5x0,7x11hd,11x0,2x11hd,182x0,2x11hd,6x0,2x11hd,2x0,8x11hd,12x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,2x11hd,12x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,3x11hd,11x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,3x11hd,11x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,4x11hd,7x0,11hd,2x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,4x11hd,7x0,11hd,2x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,4x11hd,7x0,11hd,2x0,2x11hd,182x0,2x11hd,7x0,11hd,3x0,9x11hd,10x0,2x11hd,182x0,2x11hd,6x0,2x11hd,3x0,8x11hd,11x0,2x11hd,182x0,2x11hd,6x0,11hd,9x0,3x11hd,11x0,2x11hd,182x0,2x11hd,5x0,2x11hd,9x0,3x11hd,11x0,2x11hd,182x0,2x11hd,5x0,11hd,11x0,3x11hd,10x0,2x11hd,182x0,2x11hd,5x0,11hd,12x0,3x11hd,6x0,11hd,2x0,2x11hd,182x0,2x11hd,8x0,11hd,10x0,2x11hd,6x0,11hd,2x0,2x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,5x0,11hd,2x0,2x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,8x0,2x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,3x11hd,8x0,2x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,7x0,11hd,183x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,7x0,11hd,183x0,2x11hd,8x0,11hd,10x0,5x11hd,5x0,2x11hd,183x0,2x11hd,8x0,11hd,10x0,5x11hd,6x0,11hd,183x0,2x11hd,8x0,11hd,10x0,5x11hd,6x0,11hd,183x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,7x0,2x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,6x0,3x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,5x0,4x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,6x0,4x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,6x0,4x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,5x0,5x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,3x11hd,5x0,5x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,2x11hd,6x0,5x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,2x11hd,6x0,5x11hd,182x0,14x11hd,6x0,2x11hd,7x0,5x11hd,182x0,16x11hd,3x0,3x11hd,7x0,5x11hd,182x0,23x11hd,6x0,5x11hd,182x0,34x11hd,70382x0"
+							"data": "34x11hd,182x0,4x11hd,3x0,27x11hd,182x0,3x11hd,5x0,25x11hd,183x0,2x11hd,6x0,25x11hd,183x0,2x11hd,7x0,24x11hd,183x0,2x11hd,7x0,25x11hd,182x0,2x11hd,6x0,26x11hd,182x0,3x11hd,5x0,26x11hd,182x0,5x11hd,3x0,26x11hd,182x0,13x11hd,4x0,11hd,3x0,11hd,8x0,4x11hd,182x0,12x11hd,5x0,11hd,3x0,11hd,8x0,4x11hd,182x0,4x11hd,4x0,2x11hd,7x0,11hd,3x0,11hd,8x0,4x11hd,182x0,3x11hd,5x0,2x11hd,20x0,4x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,22x0,2x11hd,182x0,2x11hd,6x0,2x11hd,11x0,11hd,10x0,2x11hd,182x0,2x11hd,6x0,2x11hd,11x0,11hd,10x0,2x11hd,182x0,2x11hd,5x0,2x11hd,11x0,2x11hd,10x0,2x11hd,182x0,2x11hd,5x0,2x11hd,10x0,3x11hd,7x0,2x11hd,11,2x11hd,182x0,2x11hd,5x0,2x11hd,10x0,2x11hd,8x0,11hd,2x11,2x11hd,182x0,2x11hd,5x0,2x11hd,9x0,3x11hd,8x0,11hd,2x0,2x11hd,182x0,2x11hd,5x0,2x11hd,6x0,11hd,2x0,3x11hd,9x0,11hd,0,2x11hd,182x0,2x11hd,5x0,2x11hd,5x0,7x11hd,11x0,2x11hd,182x0,2x11hd,6x0,2x11hd,2x0,8x11hd,12x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,2x11hd,12x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,3x11hd,11x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,3x11hd,11x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,4x11hd,7x0,11hd,2x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,4x11hd,7x0,11hd,2x0,2x11hd,182x0,2x11hd,7x0,11hd,8x0,4x11hd,7x0,11hd,2x0,2x11hd,182x0,2x11hd,7x0,11hd,3x0,9x11hd,10x0,2x11hd,182x0,2x11hd,6x0,2x11hd,3x0,8x11hd,11x0,2x11hd,182x0,2x11hd,6x0,11hd,9x0,3x11hd,11x0,2x11hd,182x0,2x11hd,5x0,2x11hd,9x0,3x11hd,11x0,2x11hd,182x0,2x11hd,5x0,11hd,11x0,3x11hd,10x0,2x11hd,182x0,2x11hd,5x0,11hd,12x0,3x11hd,6x0,11hd,2x0,2x11hd,182x0,2x11hd,8x0,11hd,10x0,2x11hd,6x0,11hd,2x0,2x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,5x0,11hd,2x0,2x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,8x0,2x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,3x11hd,8x0,2x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,7x0,11hd,183x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,7x0,11hd,183x0,2x11hd,8x0,11hd,10x0,5x11hd,5x0,2x11hd,183x0,2x11hd,8x0,11hd,10x0,5x11hd,6x0,11hd,183x0,2x11hd,8x0,11hd,10x0,5x11hd,6x0,11hd,183x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,7x0,2x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,6x0,3x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,4x11hd,5x0,4x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,6x0,4x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,6x0,4x11hd,182x0,2x11hd,8x0,11hd,10x0,3x11hd,5x0,5x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,3x11hd,5x0,5x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,2x11hd,6x0,5x11hd,182x0,2x11hd,5x0,11hd,5x0,11hd,7x0,2x11hd,6x0,5x11hd,182x0,14x11hd,6x0,2x11hd,7x0,5x11hd,182x0,16x11hd,3x0,3x11hd,7x0,5x11hd,182x0,23x11hd,6x0,5x11hd,182x0,34x11hd,70382x0"
 						},
 						"tile-width": 32,
 						"tile-height": 32,
@@ -676,10 +676,10 @@
 					"behaviors": {
 						"Platform": {
 							"properties": {
-								"max-speed": 330,
-								"acceleration": 1500,
+								"max-speed": 270,
+								"acceleration": 500,
 								"deceleration": 1500,
-								"jump-strength": 450,
+								"jump-strength": 400,
 								"gravity": 1500,
 								"max-fall-speed": 1000,
 								"double-jump": true,
@@ -2500,6 +2500,41 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "GameManager",
+					"properties": {
+						"initially-visible": false,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 108,
+					"instanceVariables": {
+						"ChargeTimer": 0
+					},
+					"behaviors": {
+						"Timer": {
+							"properties": {}
+						}
+					},
+					"world": {
+						"x": 383,
+						"y": -382,
+						"width": 250,
+						"height": 250,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 602575024200327,
@@ -2530,8 +2565,161 @@
 		},
 		{
 			"name": "UI",
-			"overriden": 1,
-			"instances": [],
+			"overriden": 0,
+			"instances": [
+				{
+					"type": "UI_StarpowerIcon",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 109,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 29.236167315018022,
+						"y": 28.628754090868675,
+						"width": 72.30148960970696,
+						"height": 72.30148960970696,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UI_PowerBar",
+					"properties": {
+						"value": 0,
+						"maximum": 20,
+						"tooltip": "",
+						"initially-visible": true,
+						"id": ""
+					},
+					"uid": 110,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 64.23616731501802,
+						"y": 3.628754090868675,
+						"width": 217.31993503020297,
+						"height": 27.16499187877537,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "UI_Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Full",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 111,
+					"instanceVariables": {
+						"Active": true,
+						"HeartID": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 89.23616731501802,
+						"y": 57.62875409086868,
+						"width": 60,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UI_Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Full",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 112,
+					"instanceVariables": {
+						"Active": true,
+						"HeartID": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 136.23616731501804,
+						"y": 57.62875409086868,
+						"width": 60,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "UI_Heart",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Full",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 113,
+					"instanceVariables": {
+						"Active": true,
+						"HeartID": 0
+					},
+					"behaviors": {},
+					"world": {
+						"x": 183.23616731501804,
+						"y": 58.62875409086868,
+						"width": 60,
+						"height": 60,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 661995997779436,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
