@@ -151,10 +151,10 @@
 					"world": {
 						"x": 537.5,
 						"y": -80.5,
-						"width": 21.632,
-						"height": 8.576,
-						"originX": 0.33727810650887574,
-						"originY": 0.4626865671641791,
+						"width": 92.928,
+						"height": 102.912,
+						"originX": 0.2414298987725561,
+						"originY": 0.530704685527586,
 						"color": [
 							1,
 							1,
@@ -195,10 +195,10 @@
 					"world": {
 						"x": 542,
 						"y": -114,
-						"width": 21.632,
-						"height": 8.576,
-						"originX": 0.33727810650887574,
-						"originY": 0.4626865671641791,
+						"width": 92.928,
+						"height": 102.912,
+						"originX": 0.2414298987725561,
+						"originY": 0.530704685527586,
 						"color": [
 							1,
 							1,
@@ -258,10 +258,10 @@
 					"world": {
 						"x": 707.5,
 						"y": -102.5,
-						"width": 22.400000000000002,
-						"height": 22.400000000000002,
-						"originX": 0.36,
-						"originY": 0.7142857142857143,
+						"width": 92.672,
+						"height": 89.47200000000001,
+						"originX": 0.2845303867403315,
+						"originY": 0.8430410790925813,
 						"color": [
 							1,
 							1,
@@ -321,10 +321,10 @@
 					"world": {
 						"x": 813.5,
 						"y": -114.5,
-						"width": 22.400000000000002,
-						"height": 22.400000000000002,
-						"originX": 0.64,
-						"originY": 0.7142857142857143,
+						"width": 92.672,
+						"height": 89.47200000000001,
+						"originX": 0.6712707182320442,
+						"originY": 0.8430410790925813,
 						"color": [
 							1,
 							1,
@@ -2063,6 +2063,486 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "EN_Slime2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 75,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 507,
+						"y": 422,
+						"width": 54.89758674535098,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 8,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 150,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 802,
+						"y": 418,
+						"width": 54.00000000000001,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 15,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 150,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 510,
+						"y": 507,
+						"width": 54.00000000000001,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 150,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1027,
+						"y": 514,
+						"width": 54.00000000000001,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 37,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 75,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 743,
+						"y": 510,
+						"width": 54.89758674535098,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 16,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 75,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1046,
+						"y": 420,
+						"width": 54.89758674535098,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 17,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 75,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1704,
+						"y": 450,
+						"width": 54.89758674535098,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 20,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 150,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1755,
+						"y": 451,
+						"width": 54.00000000000001,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 38,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 150,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1812,
+						"y": 450,
+						"width": -46.99999999999999,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EN_Slime2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Idle",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 36,
+					"instanceVariables": {
+						"Left": false,
+						"StarReturnValue": 0,
+						"EnemyHealth": 1
+					},
+					"behaviors": {
+						"Platform": {
+							"properties": {
+								"max-speed": 75,
+								"acceleration": 1500,
+								"deceleration": 1500,
+								"jump-strength": 650,
+								"gravity": 1500,
+								"max-fall-speed": 1000,
+								"double-jump": false,
+								"jump-sustain": 0,
+								"default-controls": false,
+								"enabled": true
+							}
+						}
+					},
+					"world": {
+						"x": 1854,
+						"y": 449,
+						"width": -47.10241325464902,
+						"height": 27.000000000000004,
+						"originX": 0.5771276595744681,
+						"originY": -0.06684256816182932,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
 			"sid": 770464317977667,
@@ -2238,486 +2718,6 @@
 						"height": 60,
 						"originX": 0.5,
 						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 150,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 802,
-						"y": 418,
-						"width": 54.00000000000001,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 15,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 150,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 510,
-						"y": 507,
-						"width": 54.00000000000001,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 18,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 150,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1027,
-						"y": 514,
-						"width": 54.00000000000001,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 20,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 150,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1755,
-						"y": 451,
-						"width": 54.00000000000001,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 37,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 75,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 743,
-						"y": 510,
-						"width": 54.89758674535098,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 16,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 75,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1046,
-						"y": 420,
-						"width": 54.89758674535098,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 4,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 75,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 507,
-						"y": 422,
-						"width": 54.89758674535098,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 17,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 75,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1704,
-						"y": 450,
-						"width": 54.89758674535098,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 38,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 150,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1812,
-						"y": 450,
-						"width": -46.99999999999999,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "EN_Slime2",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Idle",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 36,
-					"instanceVariables": {
-						"Left": false,
-						"StarReturnValue": 0,
-						"EnemyHealth": 1
-					},
-					"behaviors": {
-						"Platform": {
-							"properties": {
-								"max-speed": 75,
-								"acceleration": 1500,
-								"deceleration": 1500,
-								"jump-strength": 650,
-								"gravity": 1500,
-								"max-fall-speed": 1000,
-								"double-jump": false,
-								"jump-sustain": 0,
-								"default-controls": false,
-								"enabled": true
-							}
-						}
-					},
-					"world": {
-						"x": 1854,
-						"y": 449,
-						"width": -47.10241325464902,
-						"height": 27.000000000000004,
-						"originX": 0.5771276595744681,
-						"originY": -0.06684256816182932,
 						"color": [
 							1,
 							1,
