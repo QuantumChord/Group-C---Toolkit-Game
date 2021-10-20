@@ -175,7 +175,6 @@
 			"GM_FakeStapower",
 			"PL_JumpEffect",
 			"UI_Heart",
-			"PL_GainPowers",
 			"door",
 			"door_Locked",
 			"Door_Switch",

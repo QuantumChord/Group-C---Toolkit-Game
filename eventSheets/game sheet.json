@@ -1592,12 +1592,9 @@
 											}
 										},
 										{
-											"id": "go-to-layout-by-name",
+											"id": "restart-layout",
 											"objectClass": "System",
-											"sid": 528976689723822,
-											"parameters": {
-												"layout": "\"Main Menu\""
-											}
+											"sid": 807935049918656
 										}
 									],
 									"sid": 104677429554057
@@ -1850,28 +1847,7 @@
 									}
 								}
 							],
-							"actions": [
-								{
-									"id": "set-size",
-									"objectClass": "PL_GainPowers",
-									"sid": 810193524766641,
-									"parameters": {
-										"size": "1 + AdditionalSize"
-									}
-								},
-								{
-									"id": "create-object",
-									"objectClass": "System",
-									"sid": 217313899489144,
-									"parameters": {
-										"object-to-create": "PL_GainPowers",
-										"layer": "3",
-										"x": "Player.X",
-										"y": "Player.Y",
-										"create-hierarchy": false
-									}
-								}
-							],
+							"actions": [],
 							"sid": 799206130551289
 						},
 						{
@@ -2075,37 +2051,6 @@
 			"eventType": "block",
 			"conditions": [
 				{
-					"id": "compare-instance-variable",
-					"objectClass": "UI_Heart",
-					"sid": 123368636979181,
-					"parameters": {
-						"instance-variable": "HeartID",
-						"comparison": 0,
-						"value": "0"
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "wait",
-					"objectClass": "System",
-					"sid": 704119172725522,
-					"parameters": {
-						"seconds": "5"
-					}
-				},
-				{
-					"id": "restart-layout",
-					"objectClass": "System",
-					"sid": 127261122840656
-				}
-			],
-			"sid": 506156805891865
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
 					"id": "on-start-of-layout",
 					"objectClass": "System",
 					"sid": 579100983603863
@@ -2123,6 +2068,29 @@
 				}
 			],
 			"sid": 643807665291124
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "UI_Heart",
+					"sid": 624219590927960,
+					"parameters": {
+						"instance-variable": "HeartID",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 785742901786508
+				}
+			],
+			"sid": 599919333309955
 		},
 		{
 			"eventType": "block",
