@@ -1898,28 +1898,7 @@
 									}
 								}
 							],
-							"actions": [
-								{
-									"id": "set-size",
-									"objectClass": "PL_LostPower",
-									"sid": 457383787936533,
-									"parameters": {
-										"size": "15 + AdditionalSize"
-									}
-								},
-								{
-									"id": "create-object",
-									"objectClass": "System",
-									"sid": 184076307925870,
-									"parameters": {
-										"object-to-create": "PL_LostPower",
-										"layer": "3",
-										"x": "Player.X",
-										"y": "Player.Y",
-										"create-hierarchy": false
-									}
-								}
-							],
+							"actions": [],
 							"sid": 460907208795437
 						}
 					]
@@ -2108,12 +2087,17 @@
 			],
 			"actions": [
 				{
-					"id": "go-to-layout",
+					"id": "wait",
 					"objectClass": "System",
-					"sid": 444929685012623,
+					"sid": 704119172725522,
 					"parameters": {
-						"layout": "Main Menu"
+						"seconds": "5"
 					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 127261122840656
 				}
 			],
 			"sid": 506156805891865
